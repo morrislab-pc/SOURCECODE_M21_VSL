@@ -1,0 +1,38 @@
+Scenario - mult1A-testing_trigs.sce
+Logfile written - 07/07/2017 20:22:21
+
+Subject	Trial	Event Type	Code	block(str)	triplet(str)	p_code(num)	object(str)	Time	TTime	Uncertainty	Duration	Uncertainty	ReqTime	ReqDur	Stim Type	Pair Index
+
+0	1	Picture	inst1	inst1				10100	0	1	4503	1	0	next	other	0
+0	1	Response	4					14516	4416	1
+0	2	Picture	t21;2	t21;2				14603	0	1	8105	1	0	8000	other	0
+0	3	Picture	t5;2	t5;2				24709	0	1	8105	1	0	8000	other	0
+0	4	Picture	t24;2	t24;2				34816	0	1	8105	1	0	8000	other	0
+0	5	Picture	t18;3	t18;3				44922	0	1	8105	1	0	8000	other	0
+0	6	Picture	t12;3	t12;3				55029	0	1	8105	1	0	8000	false_alarm	8
+0	6	Response	4					56516	1488	1
+0	6	Response	4					61316	6288	1
+0	7	Picture	t6;3	t6;3				65135	0	1	8105	1	0	8000	other	0
+0	8	Picture	t7;5	t7;5				75242	0	1	8105	1	0	8000	other	0
+0	9	Picture	t20;5	t20;5				85348	0	1	8105	1	0	8000	other	0
+0	10	Picture	t9;5	t9;5				95454	0	1	8105	1	0	8000	other	0
+0	11	Picture	t8;8	t8;8				105561	0	1	8105	1	0	8000	other	0
+0	12	Picture	t1;8	t1;8				115667	0	1	8105	1	0	8000	other	0
+0	13	Picture	t2;8	t2;8				125774	0	1	8105	1	0	8000	other	0
+0	14	Picture	t10;7	t10;7				135880	0	1	8105	1	0	8000	other	0
+0	15	Picture	t17;7	t17;7				145987	0	1	8105	1	0	8000	other	0
+0	16	Picture	t3;7	t3;7				156093	0	1	8105	1	0	8000	other	0
+0	17	Picture	t22;4	t22;4				166200	0	1	8105	1	0	8000	other	0
+0	18	Picture	t15;4	t15;4				176306	0	1	8105	1	0	8000	other	0
+0	19	Picture	t13;4	t13;4				186412	0	1	8105	1	0	8000	other	0
+0	20	Picture	t11;6	t11;6				196519	0	1	8105	1	0	8000	other	0
+0	21	Picture	t16;6	t16;6				206625	0	1	8105	1	0	8000	other	0
+0	22	Picture	t14;6	t14;6				216732	0	1	8105	1	0	8000	other	0
+0	23	Picture	t4;1	t4;1				226838	0	1	8105	1	0	8000	other	0
+0	24	Picture	t19;1	t19;1				236944	0	1	8106	2	0	8000	other	0
+0	25	Picture	t23;1	t23;1				247051	0	1	8105	1	0	8000	other	0
+0	26	Picture	t8;8	t8;8				257158	0	1	8105	1	0	8000	other	0
+0	27	Picture	t1;8	t1;8				267264	0	1	8105	1	0	8000	other	0
+0	28	Picture	t2;8	t2;8				277371	0	1	8105	1	0	8000	other	0
+0	29	Picture	t10;7	t10;7				287477	0	1	8105	1	0	8000	other	0
+0	29	Quit						295954	8477	NA

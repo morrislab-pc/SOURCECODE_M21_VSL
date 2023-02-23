@@ -1,0 +1,86 @@
+Scenario - mult1A.sce
+Logfile written - 06/30/2017 12:34:46
+
+Subject	Trial	Event Type	Code	block(str)	triplet(str)	object(str)	Time	TTime	Uncertainty	Duration	Uncertainty	ReqTime	ReqDur	Stim Type	Pair Index
+
+00	1	Picture	inst1	inst1			10100	0	1	169909	1	0	next	other	0
+00	1	Response	4				179968	169868	0
+00	2	Picture	t20;4	t20;4			180008	0	1	8105	1	0	8000	other	0
+00	3	Picture	t23;4	t23;4			190115	0	1	8105	1	0	8000	other	0
+00	4	Picture	t19;4	t19;4			200221	0	1	8105	1	0	8000	other	0
+00	5	Picture	t3;6	t3;6			210328	0	1	8105	1	0	8000	other	0
+00	6	Picture	t2;6	t2;6			220434	0	1	8105	1	0	8000	other	0
+00	7	Picture	t12;6	t12;6			230541	0	1	8105	1	0	8000	other	0
+00	8	Picture	t7;7	t7;7			240647	0	1	8105	1	0	8000	other	0
+00	9	Picture	t17;7	t17;7			250754	0	1	8105	1	0	8000	other	0
+00	10	Picture	t22;7	t22;7			260860	0	1	8105	1	0	8000	other	0
+00	11	Picture	t13;2	t13;2			270966	0	1	8105	1	0	8000	other	0
+00	12	Picture	t1;2	t1;2			281073	0	1	8105	1	0	8000	other	0
+00	13	Picture	t16;2	t16;2			291179	0	1	8105	1	0	8000	other	0
+00	14	Picture	t4;5	t4;5			301286	0	1	8105	1	0	8000	other	0
+00	15	Picture	t8;5	t8;5			311392	0	1	8105	1	0	8000	other	0
+00	16	Picture	t11;5	t11;5			321499	0	1	8105	1	0	8000	other	0
+00	17	Picture	t6;3	t6;3			331605	0	1	8105	1	0	8000	other	0
+00	18	Picture	t10;3	t10;3			341712	0	1	8105	1	0	8000	other	0
+00	19	Picture	t15;3	t15;3			351818	0	1	8105	1	0	8000	other	0
+00	20	Picture	t5;1	t5;1			361925	0	1	8105	1	0	8000	other	0
+00	21	Picture	t9;1	t9;1			372031	0	1	8105	1	0	8000	other	0
+00	22	Picture	t14;1	t14;1			382138	0	1	8105	1	0	8000	other	0
+00	23	Picture	t18;8	t18;8			392244	0	1	8105	1	0	8000	other	0
+00	24	Picture	t24;8	t24;8			402350	0	1	8105	1	0	8000	other	0
+00	25	Picture	t21;8	t21;8			412457	0	1	8105	1	0	8000	other	0
+00	26	Picture	t3;6	t3;6			422563	0	1	8105	1	0	8000	other	0
+00	27	Picture	t2;6	t2;6			432670	0	1	8105	1	0	8000	other	0
+00	28	Picture	t12;6	t12;6			442776	0	1	8105	1	0	8000	other	0
+00	29	Picture	t6;3	t6;3			452883	0	1	8105	1	0	8000	other	0
+00	30	Picture	t10;3	t10;3			462989	0	1	8105	1	0	8000	other	0
+00	31	Picture	t15;3	t15;3			473096	0	1	8105	1	0	8000	other	0
+00	32	Picture	t5;1	t5;1			483202	0	1	8105	1	0	8000	other	0
+00	33	Picture	t9;1	t9;1			493308	0	1	8105	1	0	8000	other	0
+00	34	Picture	t14;1	t14;1			503415	0	1	8105	1	0	8000	other	0
+00	35	Picture	t18;8	t18;8			513521	0	1	8105	1	0	8000	other	0
+00	36	Picture	t24;8	t24;8			523628	0	1	8105	1	0	8000	other	0
+00	37	Picture	t21;8	t21;8			533734	0	1	8105	1	0	8000	other	0
+00	38	Picture	t7;7	t7;7			543841	0	1	8105	1	0	8000	other	0
+00	39	Picture	t17;7	t17;7			553947	0	1	8105	1	0	8000	other	0
+00	40	Picture	t22;7	t22;7			564054	0	1	8105	1	0	8000	other	0
+00	41	Picture	t20;4	t20;4			574160	0	1	8105	1	0	8000	other	0
+00	42	Picture	t23;4	t23;4			584267	0	1	8105	1	0	8000	other	0
+00	43	Picture	t19;4	t19;4			594373	0	1	8105	1	0	8000	other	0
+00	44	Picture	t4;5	t4;5			604480	0	1	8105	1	0	8000	other	0
+00	45	Picture	t8;5	t8;5			614586	0	1	8105	1	0	8000	other	0
+00	46	Picture	t11;5	t11;5			624693	0	1	8105	1	0	8000	other	0
+00	47	Picture	t13;2	t13;2			634799	0	1	8105	1	0	8000	other	0
+00	48	Picture	t1;2	t1;2			644905	0	1	8105	1	0	8000	other	0
+00	49	Picture	t16;2	t16;2			655012	0	1	8105	1	0	8000	other	0
+00	50	Picture	t5;1	t5;1			665118	0	1	8105	1	0	8000	other	0
+00	51	Picture	t9;1	t9;1			675225	0	1	8105	1	0	8000	other	0
+00	52	Picture	t14;1	t14;1			685331	0	1	8105	1	0	8000	other	0
+00	53	Picture	t13;2	t13;2			695438	0	1	8105	1	0	8000	other	0
+00	54	Picture	t1;2	t1;2			705544	0	1	8105	1	0	8000	other	0
+00	55	Picture	t16;2	t16;2			715651	0	1	8105	1	0	8000	other	0
+00	56	Picture	t4;5	t4;5			725757	0	1	8105	1	0	8000	other	0
+00	57	Picture	t8;5	t8;5			735864	0	1	8105	1	0	8000	other	0
+00	58	Picture	t11;5	t11;5			745970	0	1	8105	1	0	8000	other	0
+00	59	Picture	t20;4	t20;4			756077	0	1	8105	1	0	8000	other	0
+00	60	Picture	t23;4	t23;4			766183	0	1	8105	1	0	8000	other	0
+00	61	Picture	t19;4	t19;4			776289	0	1	8105	1	0	8000	other	0
+00	62	Picture	t18;8	t18;8			786396	0	1	8105	1	0	8000	other	0
+00	63	Picture	t24;8	t24;8			796502	0	1	8105	1	0	8000	other	0
+00	64	Picture	t21;8	t21;8			806609	0	1	8105	1	0	8000	other	0
+00	65	Picture	t7;7	t7;7			816715	0	1	8105	1	0	8000	other	0
+00	66	Picture	t17;7	t17;7			826822	0	1	8105	1	0	8000	other	0
+00	67	Picture	t22;7	t22;7			836928	0	1	8105	1	0	8000	other	0
+00	68	Picture	t6;3	t6;3			847035	0	1	8105	1	0	8000	other	0
+00	69	Picture	t10;3	t10;3			857141	0	1	8105	1	0	8000	other	0
+00	70	Picture	t15;3	t15;3			867248	0	1	8105	1	0	8000	other	0
+00	71	Picture	t3;6	t3;6			877354	0	1	8105	1	0	8000	other	0
+00	72	Picture	t2;6	t2;6			887461	0	1	8105	1	0	8000	other	0
+00	73	Picture	t12;6	t12;6			897567	0	1	8105	1	0	8000	other	0
+00	74	Picture	t20;4	t20;4			907673	0	1	8105	1	0	8000	other	0
+00	75	Picture	t23;4	t23;4			917780	0	1	8105	1	0	8000	other	0
+00	76	Picture	t19;4	t19;4			927886	0	1	8105	1	0	8000	other	0
+00	77	Picture	t13;2	t13;2			937993	0	1	8105	1	0	8000	other	0
+00	78	Picture	t1;2	t1;2			948099	0	1	8105	1	0	8000	other	0
+00	79	Picture	t16;2	t16;2			958206	0	1	7386	1	0	8000	other	0
+00	79	Quit					960041	1835	NA

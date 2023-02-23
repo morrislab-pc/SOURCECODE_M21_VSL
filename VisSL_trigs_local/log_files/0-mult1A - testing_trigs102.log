@@ -1,0 +1,32 @@
+Scenario - mult1A-testing_trigs.sce
+Logfile written - 07/25/2017 19:52:15
+
+Subject,Trial,Event Type,Code,block(str),triplet(str),p_code(num),object(str),Time,TTime,Uncertainty,Duration,Uncertainty,ReqTime,ReqDur,Stim Type,Pair Index
+
+0,1,Picture,inst1,inst1,,,,10083,0,1,6584,1,0,next,other,0
+0,1,Response,4,,,,,16536,6453,1
+0,2,Picture,15;8,15;8,,,,16667,0,1,8084,1,0,8000,other,0
+0,3,Picture,break,break,,,,26751,0,1,13918,1,0,next,other,0
+0,3,Response,3,,,,,40536,13784,1
+0,4,Picture,inst3,inst3,,,,40669,0,1,7584,1,0,next,other,0
+0,4,Response,4,,,,,48135,7466,1
+0,5,Picture,inst3,inst3,,,,48253,0,1,15751,1,0,next,other,0
+0,5,Response,4,,,,,63895,15642,1
+0,6,Picture,24;5;2,24;5;2,,,,64005,0,1,8084,1,0,8000,other,0
+0,8,Picture,14;5;2,14;5;2,,,,79589,0,1,8084,1,0,8000,other,0
+0,10,Picture,5;5;2,5;5;2,,,,95174,0,1,8084,1,0,8000,other,0
+0,12,Picture,pause,pause,,,,110759,0,1,10084,1,0,next,other,0
+0,13,Picture,13;6;1,13;6;1,,,,120843,0,1,8084,1,0,8000,other,0
+0,15,Picture,14;6;1,14;6;1,,,,136428,0,1,8084,1,0,8000,other,0
+0,17,Picture,11;6;1,11;6;1,,,,152013,0,1,8084,1,0,8000,other,0
+0,19,Picture,pause,pause,,,,167597,0,1,10084,1,0,next,other,0
+0,20,Picture,question,question,,,,177682,0,1,10001,1,0,next,other,0
+0,20,Response,1,,,,,187654,9973,1
+0,21,Picture,2;4;2,2;4;2,,,,187683,0,1,8084,1,0,8000,other,0
+0,23,Picture,20;4;2,20;4;2,,,,202851,0,1,8084,1,0,8000,other,0
+0,25,Picture,1;4;2,1;4;2,,,,218019,0,1,8084,1,0,8000,other,0
+0,26,Quit,,,,,,228773,670,NA
+
+The following output port codes were not sent because of a conflict on the port.
+Port,Code,Time(ms)
+1,202,18768.3

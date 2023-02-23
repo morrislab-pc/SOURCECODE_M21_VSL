@@ -1,0 +1,31 @@
+Scenario - mult1A-testing_trigs.sce
+Logfile written - 07/06/2017 01:45:26
+
+Subject	Trial	Event Type	Code	block(str)	triplet(str)	filenameint(num)	object(str)	Time	TTime	Uncertainty	Duration	Uncertainty	ReqTime	ReqDur	Stim Type	Pair Index
+
+0	1	Picture	inst1	inst1				10100	0	1	4603	1	0	next	other	0
+0	1	Response	4					14667	4567	1
+0	2	Picture	t3;5	t3;5				14703	0	1	8105	1	0	8000	other	0
+0	3	Picture	t17;5	t17;5				24809	0	1	8105	1	0	8000	other	0
+0	4	Picture	t12;5	t12;5				34916	0	1	8105	1	0	8000	other	0
+0	5	Picture	t21;7	t21;7				45022	0	1	8105	1	0	8000	other	0
+0	6	Picture	t1;7	t1;7				55129	0	1	8105	1	0	8000	other	0
+0	7	Picture	t4;7	t4;7				65235	0	1	8105	1	0	8000	other	0
+0	8	Picture	t22;8	t22;8				75342	0	1	8105	1	0	8000	other	0
+0	9	Picture	t14;8	t14;8				85448	0	1	8105	1	0	8000	other	0
+0	10	Picture	t19;8	t19;8				95555	0	1	8105	1	0	8000	other	0
+0	11	Picture	t7;3	t7;3				105661	0	1	8105	1	0	8000	other	0
+0	12	Picture	t11;3	t11;3				115768	0	1	8105	1	0	8000	other	0
+0	13	Picture	t20;3	t20;3				125874	0	1	8105	1	0	8000	other	0
+0	14	Picture	t15;1	t15;1				135981	0	1	8105	1	0	8000	other	0
+0	15	Picture	t2;1	t2;1				146087	0	1	8105	1	0	8000	other	0
+0	16	Picture	t23;1	t23;1				156194	0	1	8105	1	0	8000	other	0
+0	17	Picture	t24;6	t24;6				166300	0	1	8105	1	0	8000	other	0
+0	18	Picture	t8;6	t8;6				176407	0	1	8105	1	0	8000	other	0
+0	19	Picture	t10;6	t10;6				186513	0	1	8105	1	0	8000	other	0
+0	20	Picture	t13;2	t13;2				196620	0	1	9027	1	0	8000	other	0
+0	20	Quit						200186	3567	NA
+
+The following output port codes were not sent because of a conflict on the port.
+Port	Code	Time(ms)
+1	100	1470.29

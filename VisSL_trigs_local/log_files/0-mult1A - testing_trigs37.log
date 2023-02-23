@@ -1,0 +1,59 @@
+Scenario - mult1A-testing_trigs.sce
+Logfile written - 07/06/2017 01:50:44
+
+Subject	Trial	Event Type	Code	block(str)	triplet(str)	filenameint(num)	object(str)	Time	TTime	Uncertainty	Duration	Uncertainty	ReqTime	ReqDur	Stim Type	Pair Index
+
+0	1	Picture	inst1	inst1				10100	0	1	4203	1	0	next	other	0
+0	1	Response	4					14240	4141	1
+0	2	Picture	t6;6	t6;6				14303	0	1	8105	1	0	8000	other	0
+0	3	Picture	t15;6	t15;6				24409	0	1	8105	1	0	8000	other	0
+0	4	Picture	t20;6	t20;6				34516	0	1	8105	1	0	8000	other	0
+0	5	Picture	t1;7	t1;7				44622	0	1	8105	1	0	8000	false_alarm	7
+0	5	Response	4					50641	6019	1
+0	6	Picture	t18;7	t18;7				54729	0	1	8105	1	0	8000	false_alarm	9
+0	6	Response	4					56001	1272	1
+0	6	Response	4					64160	9432	1
+0	7	Picture	t17;7	t17;7				64835	0	1	8105	1	0	8000	false_alarm	12
+0	7	Response	4					72081	7246	1
+0	8	Picture	t23;8	t23;8				74941	0	1	8105	1	0	8000	false_alarm	14
+0	8	Response	4					80481	5539	1
+0	9	Picture	t10;8	t10;8				85048	0	1	8105	1	0	8000	false_alarm	16
+0	9	Response	4					94161	9113	1
+0	10	Picture	t13;8	t13;8				95154	0	1	8105	1	0	8000	other	0
+0	11	Picture	t8;5	t8;5				105261	0	1	8105	1	0	8000	false_alarm	19
+0	11	Response	4					112720	7460	1
+0	12	Picture	t4;5	t4;5				115367	0	1	8105	1	0	8000	other	0
+0	13	Picture	t7;5	t7;5				125474	0	1	8105	1	0	8000	other	0
+0	14	Picture	t2;1	t2;1				135580	0	1	8105	1	0	8000	false_alarm	23
+0	14	Response	4					140000	4420	1
+0	15	Picture	t21;1	t21;1				145687	0	1	8105	1	0	8000	other	0
+0	15	Response	4					155760	10073	1
+0	16	Picture	t3;1	t3;1				155793	0	1	8105	1	0	8000	other	0
+0	17	Picture	t9;2	t9;2				165900	0	1	8105	1	0	8000	other	0
+0	18	Picture	t24;2	t24;2				176006	0	1	8105	1	0	8000	false_alarm	29
+0	18	Response	4					176080	73	1
+0	19	Picture	t19;2	t19;2				186113	0	1	8105	1	0	8000	other	0
+0	20	Picture	t14;4	t14;4				196219	0	1	8105	1	0	8000	false_alarm	32
+0	20	Response	4					196240	20	1
+0	21	Picture	t12;4	t12;4				206326	0	1	8105	1	0	8000	false_alarm	34
+0	21	Response	4					214800	8474	1
+0	22	Picture	t16;4	t16;4				216432	0	1	8105	1	0	8000	other	0
+0	23	Picture	t22;3	t22;3				226539	0	1	8105	1	0	8000	other	0
+0	23	Response	4					236640	10101	1
+0	24	Picture	t11;3	t11;3				236645	0	1	8105	1	0	8000	other	0
+0	25	Picture	t5;3	t5;3				246752	0	1	8105	1	0	8000	other	0
+0	26	Picture	t23;8	t23;8				256858	0	1	8105	1	0	8000	other	0
+0	27	Picture	t10;8	t10;8				266965	0	1	8105	1	0	8000	other	0
+0	28	Picture	t13;8	t13;8				277071	0	1	8105	1	0	8000	false_alarm	43
+0	28	Response	4					281279	4208	1
+0	29	Picture	t14;4	t14;4				287178	0	1	8105	1	0	8000	other	0
+0	30	Picture	t12;4	t12;4				297284	0	1	8105	1	0	8000	false_alarm	46
+0	30	Response	4					301759	4475	1
+0	31	Picture	t16;4	t16;4				307391	0	1	8105	1	0	8000	other	0
+0	31	Quit						317359	9969	NA
+
+The following output port codes were not sent because of a conflict on the port.
+Port	Code	Time(ms)
+1	100	15579.3
+1	4	19624
+1	100	23664.5

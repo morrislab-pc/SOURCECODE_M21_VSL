@@ -1,0 +1,267 @@
+Scenario - mult1A-testing_trigs.sce
+Logfile written - 07/10/2017 14:47:53
+
+Subject	Trial	Event Type	Code	block(str)	triplet(str)	p_code(num)	object(str)	Time	TTime	Uncertainty	Duration	Uncertainty	ReqTime	ReqDur	Stim Type	Pair Index
+
+0	1	Picture	inst1	inst1				10083	0	1	4334	1	0	next	other	0
+0	1	Response	4					14373	4290	1
+0	2	Picture	15;7	15;7				14417	0	1	8084	1	0	8000	other	0
+0	3	Picture	break	break				24501	0	1	2500	1	0	next	other	0
+0	3	Response	3					26853	2352	1
+0	4	Picture	inst3	inst3				27001	0	1	3417	1	0	next	other	0
+0	4	Response	4					30293	3292	1
+0	5	Picture	inst3	inst3				30418	0	1	2584	1	0	next	other	0
+0	5	Response	4					32933	2514	1
+0	6	Picture	6;1;2	6;1;2				33002	0	1	8084	1	0	8000	other	0
+0	7	Picture	11;1;2	11;1;2				43086	0	1	8084	1	0	8000	other	0
+0	8	Picture	21;1;2	21;1;2				53170	0	1	8084	1	0	8000	other	0
+0	9	Picture	pause	pause				63255	0	1	10084	1	0	next	other	0
+0	10	Picture	12;3;1	12;3;1				73339	0	1	8084	1	0	8000	other	0
+0	11	Picture	4;3;1	4;3;1				83423	0	1	8084	1	0	8000	other	0
+0	12	Picture	21;3;1	21;3;1				93507	0	1	8084	1	0	8000	other	0
+0	13	Picture	pause	pause				103592	0	1	10084	1	0	next	other	0
+0	14	Picture	question	question				113676	0	1	4417	1	0	next	other	0
+0	14	Response	1					118052	4376	1
+0	15	Picture	13;8;2	13;8;2				118093	0	1	8084	1	0	8000	other	0
+0	16	Picture	10;8;2	10;8;2				128177	0	1	8084	1	0	8000	other	0
+0	17	Picture	14;8;2	14;8;2				138261	0	1	8084	1	0	8000	other	0
+0	18	Picture	pause	pause				148346	0	1	10084	1	0	next	other	0
+0	19	Picture	13;8;1	13;8;1				158430	0	1	8084	1	0	8000	other	0
+0	20	Picture	8;8;1	8;8;1				168514	0	1	8084	2	0	8000	other	0
+0	21	Picture	7;8;1	7;8;1				178598	0	1	8085	2	0	8000	other	0
+0	22	Picture	pause	pause				188683	0	1	10084	1	0	next	other	0
+0	23	Picture	question	question				198767	0	1	6917	1	0	next	other	0
+0	23	Response	2					205652	6885	1
+0	24	Picture	1;5;1	1;5;1				205684	0	1	8084	1	0	8000	other	0
+0	25	Picture	10;5;1	10;5;1				215769	0	1	8084	1	0	8000	other	0
+0	26	Picture	22;5;1	22;5;1				225853	0	1	8084	1	0	8000	other	0
+0	27	Picture	pause	pause				235937	0	1	10084	1	0	next	other	0
+0	28	Picture	1;5;2	1;5;2				246021	0	1	8084	1	0	8000	other	0
+0	29	Picture	19;5;2	19;5;2				256106	0	1	8084	1	0	8000	other	0
+0	30	Picture	15;5;2	15;5;2				266190	0	1	8084	1	0	8000	other	0
+0	31	Picture	pause	pause				276274	0	1	10084	1	0	next	other	0
+0	32	Picture	question	question				286358	0	1	18752	1	0	next	other	0
+0	32	Response	1					305011	18652	1
+0	33	Picture	24;4;1	24;4;1				305110	0	1	8084	1	0	8000	other	0
+0	34	Picture	5;4;1	5;4;1				315194	0	1	8084	1	0	8000	other	0
+0	35	Picture	20;4;1	20;4;1				325279	0	1	8084	1	0	8000	other	0
+0	36	Picture	pause	pause				335363	0	1	10084	1	0	next	other	0
+0	37	Picture	17;2;2	17;2;2				345447	0	1	8084	1	0	8000	other	0
+0	38	Picture	4;2;2	4;2;2				355531	0	1	8084	1	0	8000	other	0
+0	39	Picture	20;2;2	20;2;2				365616	0	1	8084	1	0	8000	other	0
+0	40	Picture	pause	pause				375700	0	1	10084	1	0	next	other	0
+0	41	Picture	question	question				385784	0	1	13585	1	0	next	other	0
+0	41	Response	1					399330	13546	1
+0	42	Picture	16;7;2	16;7;2				399369	0	1	8084	1	0	8000	other	0
+0	43	Picture	8;7;2	8;7;2				409453	0	1	8084	1	0	8000	other	0
+0	44	Picture	22;7;2	22;7;2				419537	0	1	8084	1	0	8000	other	0
+0	45	Picture	pause	pause				429621	0	1	10084	1	0	next	other	0
+0	46	Picture	16;7;1	16;7;1				439706	0	1	8084	1	0	8000	other	0
+0	47	Picture	3;7;1	3;7;1				449790	0	1	8084	1	0	8000	other	0
+0	48	Picture	15;7;1	15;7;1				459874	0	1	8084	1	0	8000	other	0
+0	49	Picture	pause	pause				469958	0	1	10084	1	0	next	other	0
+0	50	Picture	question	question				480043	0	1	28753	1	0	next	other	0
+0	50	Response	2					508769	28726	1
+0	51	Picture	13;8;1	13;8;1				508795	0	1	8084	1	0	8000	other	0
+0	52	Picture	8;8;1	8;8;1				518880	0	1	8084	1	0	8000	other	0
+0	53	Picture	7;8;1	7;8;1				528964	0	1	8084	1	0	8000	other	0
+0	54	Picture	pause	pause				539048	0	1	10084	1	0	next	other	0
+0	55	Picture	16;7;2	16;7;2				549132	0	1	8084	1	0	8000	other	0
+0	56	Picture	8;7;2	8;7;2				559217	0	1	8084	1	0	8000	other	0
+0	57	Picture	22;7;2	22;7;2				569301	0	1	8084	1	0	8000	other	0
+0	58	Picture	pause	pause				579385	0	1	10084	1	0	next	other	0
+0	59	Picture	question	question				589469	0	1	8751	1	0	next	other	0
+0	59	Response	1					598128	8659	1
+0	60	Picture	17;2;2	17;2;2				598220	0	1	8084	1	0	8000	other	0
+0	61	Picture	4;2;2	4;2;2				608305	0	1	8084	1	0	8000	other	0
+0	62	Picture	20;2;2	20;2;2				618389	0	1	8084	1	0	8000	other	0
+0	63	Picture	pause	pause				628473	0	1	10084	1	0	next	other	0
+0	64	Picture	6;1;1	6;1;1				638557	0	1	8084	1	0	8000	other	0
+0	65	Picture	9;1;1	9;1;1				648642	0	1	8084	1	0	8000	other	0
+0	66	Picture	23;1;1	23;1;1				658726	0	1	8084	1	0	8000	other	0
+0	67	Picture	pause	pause				668810	0	1	10084	1	0	next	other	0
+0	68	Picture	question	question				678894	0	1	6417	1	0	next	other	0
+0	68	Response	1					685247	6353	1
+0	69	Picture	6;1;1	6;1;1				685312	0	1	8084	1	0	8000	other	0
+0	70	Picture	9;1;1	9;1;1				695396	0	1	8084	1	0	8000	other	0
+0	71	Picture	23;1;1	23;1;1				705480	0	1	8084	1	0	8000	other	0
+0	72	Picture	pause	pause				715564	0	1	10084	1	0	next	other	0
+0	73	Picture	6;1;2	6;1;2				725649	0	1	8084	1	0	8000	other	0
+0	74	Picture	11;1;2	11;1;2				735733	0	1	8084	1	0	8000	other	0
+0	75	Picture	21;1;2	21;1;2				745817	0	1	8084	1	0	8000	other	0
+0	76	Picture	pause	pause				755901	0	1	10084	1	0	next	other	0
+0	77	Picture	question	question				765986	0	1	8751	1	0	next	other	0
+0	77	Response	2					774686	8701	1
+0	78	Picture	1;5;1	1;5;1				774736	0	1	8084	1	0	8000	other	0
+0	79	Picture	10;5;1	10;5;1				784821	0	1	8084	1	0	8000	other	0
+0	80	Picture	22;5;1	22;5;1				794905	0	1	8084	1	0	8000	other	0
+0	81	Picture	pause	pause				804989	0	1	10084	1	0	next	other	0
+0	82	Picture	2;6;2	2;6;2				815073	0	1	8084	1	0	8000	other	0
+0	83	Picture	3;6;2	3;6;2				825158	0	1	8084	1	0	8000	other	0
+0	84	Picture	7;6;2	7;6;2				835242	0	1	8084	1	0	8000	other	0
+0	85	Picture	pause	pause				845326	0	1	10084	1	0	next	other	0
+0	86	Picture	question	question				855410	0	1	7917	1	0	next	other	0
+0	86	Response	1					863245	7834	1
+0	87	Picture	1;5;1	1;5;1				863328	0	1	8084	1	0	8000	other	0
+0	88	Picture	10;5;1	10;5;1				873412	0	1	8084	1	0	8000	other	0
+0	89	Picture	22;5;1	22;5;1				883496	0	1	8084	1	0	8000	other	0
+0	90	Picture	pause	pause				893581	0	1	10084	1	0	next	other	0
+0	91	Picture	13;8;2	13;8;2				903665	0	1	8084	1	0	8000	other	0
+0	92	Picture	10;8;2	10;8;2				913749	0	1	8084	1	0	8000	other	0
+0	93	Picture	14;8;2	14;8;2				923833	0	1	8084	1	0	8000	other	0
+0	94	Picture	pause	pause				933918	0	1	10084	1	0	next	other	0
+0	95	Picture	question	question				944002	0	1	7917	1	0	next	other	0
+0	95	Response	2					951884	7882	1
+0	96	Picture	12;3;2	12;3;2				951919	0	1	8084	1	0	8000	other	0
+0	97	Picture	5;3;2	5;3;2				962004	0	1	8084	1	0	8000	other	0
+0	98	Picture	23;3;2	23;3;2				972088	0	1	8084	1	0	8000	other	0
+0	99	Picture	pause	pause				982172	0	1	10084	1	0	next	other	0
+0	100	Picture	6;1;1	6;1;1				992256	0	1	8084	1	0	8000	other	0
+0	101	Picture	9;1;1	9;1;1				1002341	0	1	8084	1	0	8000	other	0
+0	102	Picture	23;1;1	23;1;1				1012425	0	1	8084	1	0	8000	other	0
+0	103	Picture	pause	pause				1022509	0	1	10084	1	0	next	other	0
+0	104	Picture	question	question				1032593	0	1	13168	1	0	next	other	0
+0	104	Response	1					1045723	13130	1
+0	105	Picture	1;5;1	1;5;1				1045761	0	1	8084	1	0	8000	other	0
+0	106	Picture	10;5;1	10;5;1				1055846	0	1	8084	1	0	8000	other	0
+0	107	Picture	22;5;1	22;5;1				1065930	0	1	8084	1	0	8000	other	0
+0	108	Picture	pause	pause				1076014	0	1	10084	1	0	next	other	0
+0	109	Picture	16;7;2	16;7;2				1086098	0	1	8084	1	0	8000	other	0
+0	110	Picture	8;7;2	8;7;2				1096183	0	1	8084	1	0	8000	other	0
+0	111	Picture	22;7;2	22;7;2				1106267	0	1	8084	1	0	8000	other	0
+0	112	Picture	pause	pause				1116351	0	1	10084	1	0	next	other	0
+0	113	Picture	question	question				1126435	0	1	6251	1	0	next	other	0
+0	113	Response	2					1132603	6168	1
+0	114	Picture	17;2;1	17;2;1				1132686	0	1	8084	1	0	8000	other	0
+0	115	Picture	11;2;1	11;2;1				1142770	0	1	8084	1	0	8000	other	0
+0	116	Picture	18;2;1	18;2;1				1152854	0	1	8084	1	0	8000	other	0
+0	117	Picture	pause	pause				1162939	0	1	10084	1	0	next	other	0
+0	118	Picture	17;2;2	17;2;2				1173023	0	1	8084	1	0	8000	other	0
+0	119	Picture	4;2;2	4;2;2				1183107	0	1	8084	1	0	8000	other	0
+0	120	Picture	20;2;2	20;2;2				1193191	0	1	8084	1	0	8000	other	0
+0	121	Picture	pause	pause				1203276	0	1	10084	1	0	next	other	0
+0	122	Picture	question	question				1213360	0	1	5084	1	0	next	other	0
+0	122	Response	1					1218362	5002	1
+0	123	Picture	17;2;2	17;2;2				1218444	0	1	8084	1	0	8000	other	0
+0	124	Picture	4;2;2	4;2;2				1228528	0	1	8084	1	0	8000	other	0
+0	125	Picture	20;2;2	20;2;2				1238612	0	1	8084	1	0	8000	other	0
+0	126	Picture	pause	pause				1248697	0	1	10084	1	0	next	other	0
+0	127	Picture	12;3;1	12;3;1				1258781	0	1	8084	1	0	8000	other	0
+0	128	Picture	4;3;1	4;3;1				1268865	0	1	8084	1	0	8000	other	0
+0	129	Picture	21;3;1	21;3;1				1278949	0	1	8084	1	0	8000	other	0
+0	130	Picture	pause	pause				1289034	0	1	10084	1	0	next	other	0
+0	131	Picture	question	question				1299118	0	1	7834	1	0	next	other	0
+0	131	Response	2					1306921	7803	1
+0	132	Picture	24;4;1	24;4;1				1306952	0	1	8084	1	0	8000	other	0
+0	133	Picture	5;4;1	5;4;1				1317036	0	1	8084	1	0	8000	other	0
+0	134	Picture	20;4;1	20;4;1				1327120	0	1	8084	1	0	8000	other	0
+0	135	Picture	pause	pause				1337205	0	1	10084	1	0	next	other	0
+0	136	Picture	6;1;2	6;1;2				1347289	0	1	8084	1	0	8000	other	0
+0	137	Picture	11;1;2	11;1;2				1357373	0	1	8084	1	0	8000	other	0
+0	138	Picture	21;1;2	21;1;2				1367457	0	1	8084	2	0	8000	other	0
+0	139	Picture	pause	pause				1377541	0	1	10085	2	0	next	other	0
+0	140	Picture	question	question				1387626	0	1	137429	1	0	next	other	0
+0	140	Response	1					1524999	137373	1
+0	141	Picture	1;5;2	1;5;2				1525055	0	1	8084	1	0	8000	other	0
+0	142	Picture	19;5;2	19;5;2				1535139	0	1	8084	1	0	8000	other	0
+0	143	Picture	15;5;2	15;5;2				1545224	0	1	8084	1	0	8000	other	0
+0	144	Picture	pause	pause				1555308	0	1	10084	1	0	next	other	0
+0	145	Picture	16;7;1	16;7;1				1565392	0	1	8084	1	0	8000	other	0
+0	146	Picture	3;7;1	3;7;1				1575476	0	1	8084	1	0	8000	other	0
+0	147	Picture	15;7;1	15;7;1				1585561	0	1	8084	1	0	8000	other	0
+0	148	Picture	pause	pause				1595645	0	1	10084	1	0	next	other	0
+0	149	Picture	question	question				1605729	0	1	14335	1	0	next	other	0
+0	149	Response	1					1620038	14309	1
+0	150	Picture	12;3;1	12;3;1				1620064	0	1	8084	1	0	8000	other	0
+0	151	Picture	4;3;1	4;3;1				1630148	0	1	8084	1	0	8000	other	0
+0	152	Picture	21;3;1	21;3;1				1640232	0	1	8084	1	0	8000	other	0
+0	153	Picture	pause	pause				1650317	0	1	10084	1	0	next	other	0
+0	154	Picture	24;4;2	24;4;2				1660401	0	1	8084	1	0	8000	other	0
+0	155	Picture	9;4;2	9;4;2				1670485	0	1	8084	1	0	8000	other	0
+0	156	Picture	18;4;2	18;4;2				1680569	0	1	8084	1	0	8000	other	0
+0	157	Picture	pause	pause				1690654	0	1	10084	1	0	next	other	0
+0	158	Picture	question	question				1700738	0	1	18835	1	0	next	other	0
+0	158	Response	1					1719477	18740	1
+0	159	Picture	1;5;2	1;5;2				1719573	0	1	8084	1	0	8000	other	0
+0	160	Picture	19;5;2	19;5;2				1729657	0	1	8084	1	0	8000	other	0
+0	161	Picture	15;5;2	15;5;2				1739741	0	1	8084	1	0	8000	other	0
+0	162	Picture	pause	pause				1749826	0	1	10084	1	0	next	other	0
+0	163	Picture	13;8;1	13;8;1				1759910	0	1	8084	1	0	8000	other	0
+0	164	Picture	8;8;1	8;8;1				1769994	0	1	8084	1	0	8000	other	0
+0	165	Picture	7;8;1	7;8;1				1780079	0	1	8084	1	0	8000	other	0
+0	166	Picture	pause	pause				1790163	0	1	10084	1	0	next	other	0
+0	167	Picture	question	question				1800247	0	1	15751	1	0	next	other	0
+0	167	Response	1					1815956	15709	1
+0	168	Picture	2;6;2	2;6;2				1815998	0	1	8084	1	0	8000	other	0
+0	169	Picture	3;6;2	3;6;2				1826083	0	1	8084	1	0	8000	other	0
+0	170	Picture	7;6;2	7;6;2				1836167	0	1	8084	1	0	8000	other	0
+0	171	Picture	pause	pause				1846251	0	1	10084	1	0	next	other	0
+0	172	Picture	13;8;1	13;8;1				1856335	0	1	8084	1	0	8000	other	0
+0	173	Picture	8;8;1	8;8;1				1866420	0	1	8084	1	0	8000	other	0
+0	174	Picture	7;8;1	7;8;1				1876504	0	1	8084	1	0	8000	other	0
+0	175	Picture	pause	pause				1886588	0	1	10084	1	0	next	other	0
+0	176	Picture	question	question				1896673	0	1	12751	1	0	next	other	0
+0	176	Response	2					1909315	12643	1
+0	177	Picture	6;1;1	6;1;1				1909424	0	1	8084	1	0	8000	other	0
+0	178	Picture	9;1;1	9;1;1				1919508	0	1	8084	1	0	8000	other	0
+0	179	Picture	23;1;1	23;1;1				1929592	0	1	8084	1	0	8000	other	0
+0	180	Picture	pause	pause				1939677	0	1	10084	1	0	next	other	0
+0	181	Picture	24;4;2	24;4;2				1949761	0	1	8084	1	0	8000	other	0
+0	182	Picture	9;4;2	9;4;2				1959845	0	1	8084	1	0	8000	other	0
+0	183	Picture	18;4;2	18;4;2				1969929	0	1	8084	1	0	8000	other	0
+0	184	Picture	pause	pause				1980014	0	1	10084	1	0	next	other	0
+0	185	Picture	question	question				1990098	0	1	13751	1	0	next	other	0
+0	185	Response	1					2003795	13697	1
+0	186	Picture	17;2;1	17;2;1				2003849	0	1	8084	1	0	8000	other	0
+0	187	Picture	11;2;1	11;2;1				2013933	0	1	8084	1	0	8000	other	0
+0	188	Picture	18;2;1	18;2;1				2024018	0	1	8084	1	0	8000	other	0
+0	189	Picture	pause	pause				2034102	0	1	10084	1	0	next	other	0
+0	190	Picture	6;1;2	6;1;2				2044186	0	1	8084	1	0	8000	other	0
+0	191	Picture	11;1;2	11;1;2				2054270	0	1	8084	1	0	8000	other	0
+0	192	Picture	21;1;2	21;1;2				2064355	0	1	8084	1	0	8000	other	0
+0	193	Picture	pause	pause				2074439	0	1	10084	1	0	next	other	0
+0	194	Picture	question	question				2084523	0	1	13001	1	0	next	other	0
+0	194	Response	2					2097474	12951	1
+0	195	Picture	24;4;2	24;4;2				2097524	0	1	8084	1	0	8000	other	0
+0	196	Picture	9;4;2	9;4;2				2107609	0	1	8084	1	0	8000	other	0
+0	197	Picture	18;4;2	18;4;2				2117693	0	1	8084	1	0	8000	other	0
+0	198	Picture	pause	pause				2127777	0	1	10084	1	0	next	other	0
+0	199	Picture	24;4;1	24;4;1				2137861	0	1	8084	1	0	8000	other	0
+0	200	Picture	5;4;1	5;4;1				2147946	0	1	8084	1	0	8000	other	0
+0	201	Picture	20;4;1	20;4;1				2158030	0	1	8084	1	0	8000	other	0
+0	202	Picture	pause	pause				2168114	0	1	10084	1	0	next	other	0
+0	203	Picture	question	question				2178198	0	1	10417	1	0	next	other	0
+0	203	Response	1					2188513	10314	1
+0	204	Picture	12;3;2	12;3;2				2188616	0	1	8084	1	0	8000	other	0
+0	205	Picture	5;3;2	5;3;2				2198700	0	1	8084	1	0	8000	other	0
+0	206	Picture	23;3;2	23;3;2				2208785	0	1	8084	1	0	8000	other	0
+0	207	Picture	pause	pause				2218869	0	1	10084	1	0	next	other	0
+0	208	Picture	24;4;1	24;4;1				2228953	0	1	8084	1	0	8000	other	0
+0	209	Picture	5;4;1	5;4;1				2239037	0	1	8084	1	0	8000	other	0
+0	210	Picture	20;4;1	20;4;1				2249122	0	1	8084	1	0	8000	other	0
+0	211	Picture	pause	pause				2259206	0	1	10084	1	0	next	other	0
+0	212	Picture	question	question				2269290	0	1	25169	1	0	next	other	0
+0	212	Response	1					2294352	25062	1
+0	213	Picture	12;3;2	12;3;2				2294459	0	1	8084	1	0	8000	other	0
+0	214	Picture	5;3;2	5;3;2				2304543	0	1	8084	1	0	8000	other	0
+0	215	Picture	23;3;2	23;3;2				2314628	0	1	8084	1	0	8000	other	0
+0	216	Picture	pause	pause				2324712	0	1	10084	1	0	next	other	0
+0	217	Picture	12;3;1	12;3;1				2334796	0	1	8084	1	0	8000	other	0
+0	218	Picture	4;3;1	4;3;1				2344880	0	1	8084	1	0	8000	other	0
+0	219	Picture	21;3;1	21;3;1				2354965	0	1	8084	1	0	8000	other	0
+0	220	Picture	pause	pause				2365049	0	1	10084	1	0	next	other	0
+0	221	Picture	question	question				2375133	0	1	10872	1	0	next	other	0
+0	221	Response	1					2383791	8658	1
+
+The following output port codes were not sent because of a conflict on the port.
+Port	Code	Time(ms)
+1	107	1441.69
+1	28	11809.3
+1	35	20568.5
+1	57	39936.9
+1	68	50879.6
+1	111	95192
+1	125	104576
+1	154	130695
+1	173	162006
+1	198	181600

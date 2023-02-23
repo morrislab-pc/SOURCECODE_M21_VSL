@@ -1,0 +1,86 @@
+Scenario - mult1A-testing_trigs.sce
+Logfile written - 07/11/2017 10:41:15
+
+Subject	Trial	Event Type	Code	block(str)	triplet(str)	p_code(num)	object(str)	Time	TTime	Uncertainty	Duration	Uncertainty	ReqTime	ReqDur	Stim Type	Pair Index
+
+0	1	Picture	inst1	inst1				10083	0	1	3750	1	0	next	other	0
+0	1	Response	4					13739	3656	1
+0	2	Picture	15;5	15;5				13834	0	1	8084	1	0	8000	other	0
+0	3	Picture	17;5	17;5				23918	0	1	8084	1	0	8000	other	0
+0	4	Picture	3;5	3;5				34002	0	1	8084	1	0	8000	other	0
+0	5	Picture	24;6	24;6				44086	0	1	8084	1	0	8000	other	0
+0	6	Picture	1;6	1;6				54171	0	1	8084	1	0	8000	other	0
+0	7	Picture	21;6	21;6				64255	0	1	8084	1	0	8000	other	0
+0	8	Picture	6;2	6;2				74340	0	1	8084	1	0	8000	other	0
+0	9	Picture	18;2	18;2				84424	0	1	8084	1	0	8000	other	0
+0	10	Picture	23;2	23;2				94508	0	1	8084	1	0	8000	other	0
+0	11	Picture	9;4	9;4				104593	0	1	8084	1	0	8000	other	0
+0	12	Picture	10;4	10;4				114677	0	1	8084	1	0	8000	other	0
+0	13	Picture	13;4	13;4				124761	0	1	8084	1	0	8000	other	0
+0	14	Picture	7;8	7;8				134846	0	1	8084	1	0	8000	other	0
+0	15	Picture	4;8	4;8				144930	0	1	8084	1	0	8000	other	0
+0	16	Picture	19;8	19;8				155014	0	1	8084	1	0	8000	other	0
+0	17	Picture	16;7	16;7				165099	0	1	8084	1	0	8000	other	0
+0	18	Picture	22;7	22;7				175183	0	1	8084	1	0	8000	other	0
+0	19	Picture	20;7	20;7				185267	0	1	8084	1	0	8000	other	0
+0	20	Picture	14;3	14;3				195351	0	1	8084	1	0	8000	other	0
+0	21	Picture	11;3	11;3				205436	0	1	8084	1	0	8000	other	0
+0	22	Picture	12;3	12;3				215520	0	1	8084	1	0	8000	other	0
+0	23	Picture	2;1	2;1				225605	0	1	8084	1	0	8000	other	0
+0	24	Picture	5;1	5;1				235689	0	1	8084	1	0	8000	other	0
+0	25	Picture	8;1	8;1				245773	0	1	8084	1	0	8000	other	0
+0	26	Picture	24;6	24;6				255858	0	1	8084	1	0	8000	other	0
+0	27	Picture	1;6	1;6				265942	0	1	8084	1	0	8000	other	0
+0	28	Picture	21;6	21;6				276026	0	1	8084	1	0	8000	other	0
+0	29	Picture	16;7	16;7				286111	0	1	8084	1	0	8000	other	0
+0	30	Picture	22;7	22;7				296195	0	1	8084	1	0	8000	other	0
+0	31	Picture	20;7	20;7				306279	0	1	8084	1	0	8000	other	0
+0	32	Picture	7;8	7;8				316364	0	1	8084	1	0	8000	other	0
+0	33	Picture	4;8	4;8				326448	0	1	8084	1	0	8000	other	0
+0	34	Picture	19;8	19;8				336532	0	1	8084	1	0	8000	other	0
+0	35	Picture	15;5	15;5				346617	0	1	8084	1	0	8000	other	0
+0	36	Picture	17;5	17;5				356701	0	1	8084	1	0	8000	other	0
+0	37	Picture	3;5	3;5				366785	0	1	8084	1	0	8000	other	0
+0	38	Picture	14;3	14;3				376870	0	1	8084	1	0	8000	other	0
+0	39	Picture	11;3	11;3				386954	0	1	8084	1	0	8000	other	0
+0	40	Picture	12;3	12;3				397038	0	1	8084	1	0	8000	other	0
+0	41	Picture	9;4	9;4				407123	0	1	8084	1	0	8000	other	0
+0	42	Picture	10;4	10;4				417207	0	1	8084	1	0	8000	other	0
+0	43	Picture	13;4	13;4				427291	0	1	8084	1	0	8000	other	0
+0	44	Picture	6;2	6;2				437376	0	1	8084	1	0	8000	other	0
+0	45	Picture	18;2	18;2				447460	0	1	8084	1	0	8000	other	0
+0	46	Picture	23;2	23;2				457544	0	1	8084	1	0	8000	other	0
+0	47	Picture	2;1	2;1				467629	0	1	8084	1	0	8000	other	0
+0	48	Picture	5;1	5;1				477713	0	1	8084	1	0	8000	other	0
+0	49	Picture	8;1	8;1				487797	0	1	8084	1	0	8000	other	0
+0	50	Picture	15;5	15;5				497882	0	1	8083	2	0	8000	other	0
+0	51	Picture	17;5	17;5				507966	0	1	8084	1	0	8000	other	0
+0	52	Picture	3;5	3;5				518050	0	1	8084	1	0	8000	other	0
+0	53	Picture	9;4	9;4				528135	0	1	8084	1	0	8000	other	0
+0	54	Picture	10;4	10;4				538219	0	1	8084	1	0	8000	other	0
+0	55	Picture	13;4	13;4				548303	0	1	8084	1	0	8000	other	0
+0	56	Picture	2;1	2;1				558388	0	1	8084	1	0	8000	other	0
+0	57	Picture	5;1	5;1				568472	0	1	8084	1	0	8000	other	0
+0	58	Picture	8;1	8;1				578556	0	1	8084	1	0	8000	other	0
+0	59	Picture	14;3	14;3				588641	0	1	8084	1	0	8000	other	0
+0	60	Picture	11;3	11;3				598725	0	1	8084	1	0	8000	other	0
+0	61	Picture	12;3	12;3				608809	0	1	8084	1	0	8000	other	0
+0	62	Picture	7;8	7;8				618894	0	1	8084	1	0	8000	other	0
+0	63	Picture	4;8	4;8				628978	0	1	8084	1	0	8000	other	0
+0	64	Picture	19;8	19;8				639062	0	1	8084	1	0	8000	other	0
+0	65	Picture	6;2	6;2				649147	0	1	8084	1	0	8000	other	0
+0	66	Picture	18;2	18;2				659231	0	1	8084	1	0	8000	other	0
+0	67	Picture	23;2	23;2				669315	0	1	8084	1	0	8000	other	0
+0	68	Picture	16;7	16;7				679400	0	1	8084	1	0	8000	other	0
+0	69	Picture	22;7	22;7				689484	0	1	8084	1	0	8000	other	0
+0	70	Picture	20;7	20;7				699568	0	1	8084	1	0	8000	other	0
+0	71	Picture	24;6	24;6				709653	0	1	8084	1	0	8000	other	0
+0	72	Picture	1;6	1;6				719737	0	1	8084	1	0	8000	other	0
+0	73	Picture	21;6	21;6				729821	0	1	8084	1	0	8000	other	0
+0	74	Picture	15;5	15;5				739906	0	1	8084	1	0	8000	other	0
+0	75	Picture	17;5	17;5				749990	0	1	8084	1	0	8000	other	0
+0	76	Picture	3;5	3;5				760074	0	1	8084	1	0	8000	other	0
+0	77	Picture	2;1	2;1				770159	0	1	8084	1	0	8000	other	0
+0	78	Picture	5;1	5;1				780243	0	1	8084	1	0	8000	other	0
+0	79	Picture	8;1	8;1				790327	0	1	7238	1	0	8000	other	0
+0	79	Quit						792297	1970	NA

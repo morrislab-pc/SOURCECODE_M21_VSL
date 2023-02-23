@@ -1,0 +1,42 @@
+Scenario - mult1A-testing_trigs.sce
+Logfile written - 07/13/2017 02:17:35
+
+Subject	Trial	Event Type	Code	block(str)	triplet(str)	p_code(num)	object(str)	Time	TTime	Uncertainty	Duration	Uncertainty	ReqTime	ReqDur	Stim Type	Pair Index
+
+0	1	Picture	inst1	inst1				10083	0	1	17085	1	0	next	other	0
+0	1	Response	4					27111	17028	1
+0	2	Picture	10;3	10;3				27168	0	1	8084	1	0	8000	other	0
+0	3	Picture	12;3	12;3				37252	0	1	8084	1	0	8000	other	0
+0	4	Picture	15;3	15;3				47337	0	1	8084	1	0	8000	other	0
+0	5	Picture	14;5	14;5				57421	0	1	8084	1	0	8000	other	0
+0	6	Picture	4;5	4;5				67505	0	1	8084	1	0	8000	other	0
+0	7	Picture	18;5	18;5				77589	0	1	8084	1	0	8000	other	0
+0	8	Picture	2;1	2;1				87674	0	1	8084	1	0	8000	other	0
+0	9	Picture	13;1	13;1				97758	0	1	8084	1	0	8000	other	0
+0	10	Picture	17;1	17;1				107842	0	1	8084	1	0	8000	other	0
+0	11	Picture	23;6	23;6				117926	0	1	8084	1	0	8000	other	0
+0	12	Picture	1;6	1;6				128011	0	1	8084	1	0	8000	other	0
+0	13	Picture	20;6	20;6				138095	0	1	8084	1	0	8000	other	0
+0	14	Picture	16;4	16;4				148179	0	1	8084	1	0	8000	other	0
+0	15	Picture	22;4	22;4				158263	0	1	8084	1	0	8000	other	0
+0	16	Picture	24;4	24;4				168348	0	1	8084	1	0	8000	other	0
+0	17	Picture	8;8	8;8				178432	0	1	8084	1	0	8000	other	0
+0	18	Picture	21;8	21;8				188516	0	1	8084	1	0	8000	other	0
+0	19	Picture	5;8	5;8				198601	0	1	8084	1	0	8000	other	0
+0	20	Picture	11;2	11;2				208685	0	1	8084	1	0	8000	other	0
+0	21	Picture	19;2	19;2				218769	0	1	8084	1	0	8000	other	0
+0	22	Picture	9;2	9;2				228853	0	1	8084	1	0	8000	other	0
+0	23	Picture	6;7	6;7				238938	0	1	8084	1	0	8000	other	0
+0	24	Picture	7;7	7;7				249022	0	1	8084	1	0	8000	other	0
+0	25	Picture	3;7	3;7				259106	0	1	8084	1	0	8000	other	0
+0	26	Picture	10;3	10;3				269190	0	1	8084	1	0	8000	other	0
+0	27	Picture	12;3	12;3				279275	0	1	8084	1	0	8000	other	0
+0	28	Picture	15;3	15;3				289359	0	1	8084	1	0	8000	other	0
+0	29	Picture	14;5	14;5				299443	0	1	8084	1	0	8000	false_alarm	31
+0	29	Response	4					306468	7025	1
+0	30	Picture	4;5	4;5				309527	0	1	8084	1	0	8000	false_alarm	33
+0	30	Response	4					314388	4861	1
+0	31	Picture	18;5	18;5				319612	0	1	8084	1	0	8000	false_alarm	35
+0	31	Response	4					322068	2457	1
+0	32	Picture	11;2	11;2				329696	0	1	8303	1	0	8000	other	0
+0	32	Quit						333108	3412	NA

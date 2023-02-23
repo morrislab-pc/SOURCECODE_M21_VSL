@@ -1,0 +1,68 @@
+Scenario - mult1A-testing_trigs.sce
+Logfile written - 07/10/2017 14:50:46
+
+Subject	Trial	Event Type	Code	block(str)	triplet(str)	p_code(num)	object(str)	Time	TTime	Uncertainty	Duration	Uncertainty	ReqTime	ReqDur	Stim Type	Pair Index
+
+0	1	Picture	inst1	inst1				10083	0	1	7001	1	0	next	other	0
+0	1	Response	4					16964	6881	1
+0	2	Picture	13;7	13;7				17084	0	1	8084	1	0	8000	other	0
+0	3	Picture	break	break				27168	0	1	11251	1	0	next	other	0
+0	3	Response	3					38323	11156	1
+0	4	Picture	inst3	inst3				38419	0	1	3500	1	0	next	other	0
+0	4	Response	4					41763	3344	1
+0	5	Picture	inst3	inst3				41919	0	1	3250	1	0	next	other	0
+0	5	Response	4					45123	3204	1
+0	6	Picture	5;5;2	5;5;2				45170	0	1	8084	1	0	8000	other	0
+0	7	Picture	21;5;2	21;5;2				55254	0	1	8084	1	0	8000	other	0
+0	8	Picture	13;5;2	13;5;2				65338	0	1	8084	1	0	8000	other	0
+0	9	Picture	pause	pause				75506	0	1	10084	1	0	next	other	0
+0	10	Picture	8;7;1	8;7;1				85590	0	1	8084	1	0	8000	other	0
+0	11	Picture	19;7;1	19;7;1				95674	0	1	8084	1	0	8000	other	0
+0	12	Picture	13;7;1	13;7;1				105758	0	1	8084	1	0	8000	other	0
+0	13	Picture	pause	pause				115843	0	1	10084	1	0	next	other	0
+0	14	Picture	question	question				125927	0	1	15168	1	0	next	other	0
+0	14	Response	1					141043	15116	1
+0	15	Picture	17;6;2	17;6;2				141095	0	1	8084	1	0	8000	other	0
+0	16	Picture	19;6;2	19;6;2				151179	0	1	8084	1	0	8000	other	0
+0	17	Picture	23;6;2	23;6;2				161264	0	1	8084	1	0	8000	other	0
+0	18	Picture	pause	pause				171348	0	1	10084	1	0	next	other	0
+0	19	Picture	12;8;1	12;8;1				181432	0	1	8084	1	0	8000	other	0
+0	20	Picture	10;8;1	10;8;1				191516	0	1	8084	1	0	8000	other	0
+0	21	Picture	23;8;1	23;8;1				201601	0	1	8084	1	0	8000	other	0
+0	22	Picture	pause	pause				211685	0	1	10084	1	0	next	other	0
+0	23	Picture	question	question				221769	0	1	6834	1	0	next	other	0
+0	23	Response	2					228562	6793	1
+0	24	Picture	8;7;1	8;7;1				228603	0	1	8084	1	0	8000	other	0
+0	25	Picture	19;7;1	19;7;1				238687	0	1	8084	1	0	8000	other	0
+0	26	Picture	13;7;1	13;7;1				248772	0	1	8084	1	0	8000	other	0
+0	27	Picture	pause	pause				258856	0	1	10084	1	0	next	other	0
+0	28	Picture	8;7;2	8;7;2				268940	0	1	8084	1	0	8000	other	0
+0	29	Picture	10;7;2	10;7;2				279024	0	1	8084	1	0	8000	other	0
+0	30	Picture	11;7;2	11;7;2				289109	0	1	8084	1	0	8000	other	0
+0	31	Picture	pause	pause				299193	0	1	10084	1	0	next	other	0
+0	32	Picture	question	question				309277	0	1	4834	1	0	next	other	0
+0	32	Response	1					314001	4724	1
+0	33	Picture	2;4;1	2;4;1				314111	0	1	8084	1	0	8000	other	0
+0	34	Picture	3;4;1	3;4;1				324195	0	1	8084	1	0	8000	other	0
+0	35	Picture	4;4;1	4;4;1				334279	0	1	8084	1	0	8000	other	0
+0	36	Picture	pause	pause				344364	0	1	10084	1	0	next	other	0
+0	37	Picture	16;2;2	16;2;2				354448	0	1	8084	1	0	8000	other	0
+0	38	Picture	7;2;2	7;2;2				364532	0	1	8084	1	0	8000	other	0
+0	39	Picture	4;2;2	4;2;2				374616	0	1	8084	1	0	8000	other	0
+0	40	Picture	pause	pause				384701	0	1	10084	1	0	next	other	0
+0	41	Picture	question	question				394785	0	1	25586	1	0	next	other	0
+0	41	Response	1					420320	25535	1
+0	42	Picture	16;2;1	16;2;1				420371	0	1	8084	1	0	8000	other	0
+0	43	Picture	14;2;1	14;2;1				430455	0	1	8084	1	0	8000	other	0
+0	44	Picture	1;2;1	1;2;1				440539	0	1	8084	1	0	8000	other	0
+0	45	Picture	pause	pause				450623	0	1	10084	1	0	next	other	0
+0	46	Picture	22;3;2	22;3;2				460708	0	1	8084	1	0	8000	other	0
+0	47	Picture	3;3;2	3;3;2				470792	0	1	8084	1	0	8000	other	0
+0	48	Picture	9;3;2	9;3;2				480876	0	1	8084	1	0	8000	other	0
+0	49	Picture	pause	pause				490960	0	1	7190	1	0	next	other	0
+0	49	Quit						492879	1919	NA
+
+The following output port codes were not sent because of a conflict on the port.
+Port	Code	Time(ms)
+1	21	4516.99
+1	13	22860.3
