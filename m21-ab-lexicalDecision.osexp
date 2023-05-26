@@ -1,6 +1,6 @@
 ---
 API: 2.1
-OpenSesame: 3.3.10
+OpenSesame: 3.3.12
 Platform: nt
 ---
 set width 1920
@@ -26,7 +26,7 @@ set font_size 18
 set font_italic no
 set font_family mono
 set font_bold no
-set experiment_path "C:\\Users\\jmorris6\\OneDrive - Providence College\\PC_HPLAB\\PROJECTS\\MORPH21\\src\\OpenSesame\\port_updated"
+set experiment_path "C:/Users/ekealey/Desktop"
 set disable_garbage_collection yes
 set description "The main experiment item"
 set coordinates uniform
@@ -778,7 +778,7 @@ define loop block1
 	setcycle 117 cresp z
 	setcycle 117 word_trig 18
 	setcycle 117 ITI 350
-	setcycle 118 target ADOPTISH
+	setcycle 118 target ADOPTILP
 	setcycle 118 targ_type NW_S_COMP
 	setcycle 118 cond_trig 203
 	setcycle 118 cresp z
