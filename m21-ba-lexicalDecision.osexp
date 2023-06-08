@@ -1,6 +1,6 @@
 ---
 API: 2.1
-OpenSesame: 3.3.12
+OpenSesame: 3.3.11
 Platform: nt
 ---
 set width 1920
@@ -26,7 +26,7 @@ set font_size 18
 set font_italic no
 set font_family mono
 set font_bold no
-set experiment_path "C:/Users/ekealey/Desktop/m21_vsl-main"
+set experiment_path "C:\\Users\\jmorris6\\Desktop\\m21_vsl-main"
 set disable_garbage_collection yes
 set description "Executes Python code"
 set coordinates uniform
@@ -2056,7 +2056,7 @@ define inline_script new_inline_script_2
 	set _prepare ""
 
 define keyboard_response new_keyboard_response_1
-	set timeout 1000
+	set timeout 1200
 	set flush yes
 	set event_type keypress
 	set duration keypress
@@ -2115,7 +2115,7 @@ define inline_script response_trigger_trial
 	___run__
 	print('response',self.get("response"),'cresp',self.get("cresp"))
 	try:
-	    if int(self.get("response")) == int(self.get("cresp")):
+	    if self.get("response") == self.get("cresp"):
 	        trigger = [0xDC]
 	    else:
 	        trigger = [0xDD]
