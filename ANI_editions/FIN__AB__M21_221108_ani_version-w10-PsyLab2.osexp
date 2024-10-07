@@ -1,0 +1,2173 @@
+---
+API: 2.1
+OpenSesame: 3.3.10
+Platform: nt
+---
+set width 1920
+set uniform_coordinates yes
+set title "morph21_Oliver/Morris"
+set subject_parity even
+set subject_nr 0
+set start AB_m21
+set sound_sample_size -16
+set sound_freq 48000
+set sound_channels 2
+set sound_buf_size 1024
+set sampler_backend legacy
+set round_decimals 2
+set mouse_backend xpyriment
+set keyboard_backend legacy
+set height 1080
+set fullscreen no
+set form_clicks no
+set foreground white
+set font_underline no
+set font_size 18
+set font_italic no
+set font_family mono
+set font_bold no
+set experiment_path "C:\\Users\\jmorris6\\OneDrive - Providence College\\PC_HPLAB\\PROJECTS\\MORPH21\\src\\OpenSesame\\port_updated"
+set disable_garbage_collection yes
+set description "The main experiment item"
+set coordinates uniform
+set compensation 0
+set color_backend legacy
+set clock_backend legacy
+set canvas_backend xpyriment
+set bidi no
+set background black
+
+define sequence AB_m21
+	set flush_keyboard yes
+	set description "Runs a number of items in sequence"
+	run open_port always
+	run reset_counter_prep always
+	run instructions_1 always
+	run block1 always
+	run end_screen always
+	run close_port always
+
+define sketchpad ITI
+	set duration "[ITI]"
+	set description "Displays stimuli"
+
+define sketchpad blank_screen
+	set duration 497
+	set description "Displays stimuli"
+
+define sketchpad blink_screen
+	set duration 1500
+	set description "Displays stimuli"
+	draw textline center=1 color=white font_bold=no font_family=mono font_italic=no font_size=18 html=yes show_if=always text="(--)" x=0 y=0 z_index=0
+
+define loop block1
+	set source_file ""
+	set source table
+	set repeat 1
+	set order random
+	set description "Repeatedly runs another item"
+	set cycles 300
+	set continuous no
+	set break_if_on_first yes
+	set break_if never
+	setcycle 0 target DETECTABLE
+	setcycle 0 targ_type CW_S
+	setcycle 0 cond_trig 201
+	setcycle 0 cresp "/"
+	setcycle 0 word_trig 1
+	setcycle 0 ITI 300
+	setcycle 1 target AVOIDABLE
+	setcycle 1 targ_type CW_S
+	setcycle 1 cond_trig 201
+	setcycle 1 cresp "/"
+	setcycle 1 word_trig 2
+	setcycle 1 ITI 400
+	setcycle 2 target NOTICEABLE
+	setcycle 2 targ_type CW_S
+	setcycle 2 cond_trig 201
+	setcycle 2 cresp "/"
+	setcycle 2 word_trig 3
+	setcycle 2 ITI 250
+	setcycle 3 target MAGICAL
+	setcycle 3 targ_type CW_S
+	setcycle 3 cond_trig 201
+	setcycle 3 cresp "/"
+	setcycle 3 word_trig 4
+	setcycle 3 ITI 300
+	setcycle 4 target ALLOWANCE
+	setcycle 4 targ_type CW_S
+	setcycle 4 cond_trig 201
+	setcycle 4 cresp "/"
+	setcycle 4 word_trig 5
+	setcycle 4 ITI 400
+	setcycle 5 target DIETARY
+	setcycle 5 targ_type CW_S
+	setcycle 5 cond_trig 201
+	setcycle 5 cresp "/"
+	setcycle 5 word_trig 6
+	setcycle 5 ITI 400
+	setcycle 6 target WIDOWED
+	setcycle 6 targ_type CW_S
+	setcycle 6 cond_trig 201
+	setcycle 6 cresp "/"
+	setcycle 6 word_trig 7
+	setcycle 6 ITI 400
+	setcycle 7 target BEARDED
+	setcycle 7 targ_type CW_S
+	setcycle 7 cond_trig 201
+	setcycle 7 cresp "/"
+	setcycle 7 word_trig 8
+	setcycle 7 ITI 350
+	setcycle 8 target INSISTENT
+	setcycle 8 targ_type CW_S
+	setcycle 8 cond_trig 201
+	setcycle 8 cresp "/"
+	setcycle 8 word_trig 9
+	setcycle 8 ITI 300
+	setcycle 9 target TOASTER
+	setcycle 9 targ_type CW_S
+	setcycle 9 cond_trig 201
+	setcycle 9 cresp "/"
+	setcycle 9 word_trig 10
+	setcycle 9 ITI 350
+	setcycle 10 target LENDER
+	setcycle 10 targ_type CW_S
+	setcycle 10 cond_trig 201
+	setcycle 10 cresp "/"
+	setcycle 10 word_trig 11
+	setcycle 10 ITI 350
+	setcycle 11 target RAIDER
+	setcycle 11 targ_type CW_S
+	setcycle 11 cond_trig 201
+	setcycle 11 cresp "/"
+	setcycle 11 word_trig 12
+	setcycle 11 ITI 400
+	setcycle 12 target JAILER
+	setcycle 12 targ_type CW_S
+	setcycle 12 cond_trig 201
+	setcycle 12 cresp "/"
+	setcycle 12 word_trig 13
+	setcycle 12 ITI 250
+	setcycle 13 target DESTROYER
+	setcycle 13 targ_type CW_S
+	setcycle 13 cond_trig 201
+	setcycle 13 cresp "/"
+	setcycle 13 word_trig 14
+	setcycle 13 ITI 300
+	setcycle 14 target CAMPAIGNER
+	setcycle 14 targ_type CW_S
+	setcycle 14 cond_trig 201
+	setcycle 14 cresp "/"
+	setcycle 14 word_trig 15
+	setcycle 14 ITI 200
+	setcycle 15 target SEEKER
+	setcycle 15 targ_type CW_S
+	setcycle 15 cond_trig 201
+	setcycle 15 cresp "/"
+	setcycle 15 word_trig 16
+	setcycle 15 ITI 250
+	setcycle 16 target SINGER
+	setcycle 16 targ_type CW_S
+	setcycle 16 cond_trig 201
+	setcycle 16 cresp "/"
+	setcycle 16 word_trig 17
+	setcycle 16 ITI 350
+	setcycle 17 target LISTENER
+	setcycle 17 targ_type CW_S
+	setcycle 17 cond_trig 201
+	setcycle 17 cresp "/"
+	setcycle 17 word_trig 18
+	setcycle 17 ITI 200
+	setcycle 18 target DESIGN
+	setcycle 18 targ_type CW_S
+	setcycle 18 cond_trig 201
+	setcycle 18 cresp "/"
+	setcycle 18 word_trig 19
+	setcycle 18 ITI 400
+	setcycle 19 target ATTACKER
+	setcycle 19 targ_type CW_S
+	setcycle 19 cond_trig 201
+	setcycle 19 cresp "/"
+	setcycle 19 word_trig 20
+	setcycle 19 ITI 300
+	setcycle 20 target BUYER
+	setcycle 20 targ_type CW_S
+	setcycle 20 cond_trig 201
+	setcycle 20 cresp "/"
+	setcycle 20 word_trig 21
+	setcycle 20 ITI 300
+	setcycle 21 target PLANNER
+	setcycle 21 targ_type CW_S
+	setcycle 21 cond_trig 201
+	setcycle 21 cresp "/"
+	setcycle 21 word_trig 22
+	setcycle 21 ITI 250
+	setcycle 22 target TEACHER
+	setcycle 22 targ_type CW_S
+	setcycle 22 cond_trig 201
+	setcycle 22 cresp "/"
+	setcycle 22 word_trig 23
+	setcycle 22 ITI 350
+	setcycle 23 target THRUSTER
+	setcycle 23 targ_type CW_S
+	setcycle 23 cond_trig 201
+	setcycle 23 cresp "/"
+	setcycle 23 word_trig 24
+	setcycle 23 ITI 200
+	setcycle 24 target ANGELIC
+	setcycle 24 targ_type CW_S
+	setcycle 24 cond_trig 201
+	setcycle 24 cresp "/"
+	setcycle 24 word_trig 25
+	setcycle 24 ITI 200
+	setcycle 25 target TOSSING
+	setcycle 25 targ_type CW_S
+	setcycle 25 cond_trig 201
+	setcycle 25 cresp "/"
+	setcycle 25 word_trig 26
+	setcycle 25 ITI 250
+	setcycle 26 target TUTORING
+	setcycle 26 targ_type CW_S
+	setcycle 26 cond_trig 201
+	setcycle 26 cresp "/"
+	setcycle 26 word_trig 27
+	setcycle 26 ITI 250
+	setcycle 27 target PEAKING
+	setcycle 27 targ_type CW_S
+	setcycle 27 cond_trig 201
+	setcycle 27 cresp "/"
+	setcycle 27 word_trig 28
+	setcycle 27 ITI 250
+	setcycle 28 target HARMLESS
+	setcycle 28 targ_type CW_S
+	setcycle 28 cond_trig 201
+	setcycle 28 cresp "/"
+	setcycle 28 word_trig 29
+	setcycle 28 ITI 250
+	setcycle 29 target EFFORTLESS
+	setcycle 29 targ_type CW_S
+	setcycle 29 cond_trig 201
+	setcycle 29 cresp "/"
+	setcycle 29 word_trig 30
+	setcycle 29 ITI 400
+	setcycle 30 target GRIMLY
+	setcycle 30 targ_type CW_S
+	setcycle 30 cond_trig 201
+	setcycle 30 cresp "/"
+	setcycle 30 word_trig 31
+	setcycle 30 ITI 250
+	setcycle 31 target DENSELY
+	setcycle 31 targ_type CW_S
+	setcycle 31 cond_trig 201
+	setcycle 31 cresp "/"
+	setcycle 31 word_trig 32
+	setcycle 31 ITI 350
+	setcycle 32 target NEATLY
+	setcycle 32 targ_type CW_S
+	setcycle 32 cond_trig 201
+	setcycle 32 cresp "/"
+	setcycle 32 word_trig 33
+	setcycle 32 ITI 350
+	setcycle 33 target GUILTY
+	setcycle 33 targ_type CW_S
+	setcycle 33 cond_trig 201
+	setcycle 33 cresp "/"
+	setcycle 33 word_trig 34
+	setcycle 33 ITI 300
+	setcycle 34 target HUGELY
+	setcycle 34 targ_type CW_S
+	setcycle 34 cond_trig 201
+	setcycle 34 cresp "/"
+	setcycle 34 word_trig 35
+	setcycle 34 ITI 250
+	setcycle 35 target COSTLY
+	setcycle 35 targ_type CW_S
+	setcycle 35 cond_trig 201
+	setcycle 35 cresp "/"
+	setcycle 35 word_trig 36
+	setcycle 35 ITI 250
+	setcycle 36 target LOCALLY
+	setcycle 36 targ_type CW_S
+	setcycle 36 cond_trig 201
+	setcycle 36 cresp "/"
+	setcycle 36 word_trig 37
+	setcycle 36 ITI 200
+	setcycle 37 target AMUSEMENT
+	setcycle 37 targ_type CW_S
+	setcycle 37 cond_trig 201
+	setcycle 37 cresp "/"
+	setcycle 37 word_trig 38
+	setcycle 37 ITI 200
+	setcycle 38 target AMAZEMENT
+	setcycle 38 targ_type CW_S
+	setcycle 38 cond_trig 201
+	setcycle 38 cresp "/"
+	setcycle 38 word_trig 39
+	setcycle 38 ITI 350
+	setcycle 39 target ENJOYMENT
+	setcycle 39 targ_type CW_S
+	setcycle 39 cond_trig 201
+	setcycle 39 cresp "/"
+	setcycle 39 word_trig 40
+	setcycle 39 ITI 200
+	setcycle 40 target BOLDNESS
+	setcycle 40 targ_type CW_S
+	setcycle 40 cond_trig 201
+	setcycle 40 cresp "/"
+	setcycle 40 word_trig 41
+	setcycle 40 ITI 200
+	setcycle 41 target MILDNESS
+	setcycle 41 targ_type CW_S
+	setcycle 41 cond_trig 201
+	setcycle 41 cresp "/"
+	setcycle 41 word_trig 42
+	setcycle 41 ITI 250
+	setcycle 42 target DULLNESS
+	setcycle 42 targ_type CW_S
+	setcycle 42 cond_trig 201
+	setcycle 42 cresp "/"
+	setcycle 42 word_trig 43
+	setcycle 42 ITI 350
+	setcycle 43 target AWARENESS
+	setcycle 43 targ_type CW_S
+	setcycle 43 cond_trig 201
+	setcycle 43 cresp "/"
+	setcycle 43 word_trig 44
+	setcycle 43 ITI 250
+	setcycle 44 target RICHNESS
+	setcycle 44 targ_type CW_S
+	setcycle 44 cond_trig 201
+	setcycle 44 cresp "/"
+	setcycle 44 word_trig 45
+	setcycle 44 ITI 350
+	setcycle 45 target STRANGENESS
+	setcycle 45 targ_type CW_S
+	setcycle 45 cond_trig 201
+	setcycle 45 cresp "/"
+	setcycle 45 word_trig 46
+	setcycle 45 ITI 350
+	setcycle 46 target MOSSY
+	setcycle 46 targ_type CW_S
+	setcycle 46 cond_trig 201
+	setcycle 46 cresp "/"
+	setcycle 46 word_trig 47
+	setcycle 46 ITI 250
+	setcycle 47 target CHILLY
+	setcycle 47 targ_type CW_S
+	setcycle 47 cond_trig 201
+	setcycle 47 cresp "/"
+	setcycle 47 word_trig 48
+	setcycle 47 ITI 350
+	setcycle 48 target BOSSY
+	setcycle 48 targ_type CW_S
+	setcycle 48 cond_trig 201
+	setcycle 48 cresp "/"
+	setcycle 48 word_trig 49
+	setcycle 48 ITI 350
+	setcycle 49 target RISKY
+	setcycle 49 targ_type CW_S
+	setcycle 49 cond_trig 201
+	setcycle 49 cresp "/"
+	setcycle 49 word_trig 50
+	setcycle 49 ITI 300
+	setcycle 50 target PUNCHER
+	setcycle 50 targ_type CW_L
+	setcycle 50 cond_trig 202
+	setcycle 50 cresp "/"
+	setcycle 50 word_trig 1
+	setcycle 50 ITI 350
+	setcycle 51 target BARKER
+	setcycle 51 targ_type CW_L
+	setcycle 51 cond_trig 202
+	setcycle 51 cresp "/"
+	setcycle 51 word_trig 2
+	setcycle 51 ITI 350
+	setcycle 52 target SPELLER
+	setcycle 52 targ_type CW_L
+	setcycle 52 cond_trig 202
+	setcycle 52 cresp "/"
+	setcycle 52 word_trig 3
+	setcycle 52 ITI 400
+	setcycle 53 target KNOCKER
+	setcycle 53 targ_type CW_L
+	setcycle 53 cond_trig 202
+	setcycle 53 cresp "/"
+	setcycle 53 word_trig 4
+	setcycle 53 ITI 300
+	setcycle 54 target SWIMMER
+	setcycle 54 targ_type CW_L
+	setcycle 54 cond_trig 202
+	setcycle 54 cresp "/"
+	setcycle 54 word_trig 5
+	setcycle 54 ITI 350
+	setcycle 55 target COMPOSER
+	setcycle 55 targ_type CW_L
+	setcycle 55 cond_trig 202
+	setcycle 55 cresp "/"
+	setcycle 55 word_trig 6
+	setcycle 55 ITI 300
+	setcycle 56 target BOMBER
+	setcycle 56 targ_type CW_L
+	setcycle 56 cond_trig 202
+	setcycle 56 cresp "/"
+	setcycle 56 word_trig 7
+	setcycle 56 ITI 350
+	setcycle 57 target LOCKER
+	setcycle 57 targ_type CW_L
+	setcycle 57 cond_trig 202
+	setcycle 57 cresp "/"
+	setcycle 57 word_trig 8
+	setcycle 57 ITI 400
+	setcycle 58 target RENTER
+	setcycle 58 targ_type CW_L
+	setcycle 58 cond_trig 202
+	setcycle 58 cresp "/"
+	setcycle 58 word_trig 9
+	setcycle 58 ITI 350
+	setcycle 59 target HUNTER
+	setcycle 59 targ_type CW_L
+	setcycle 59 cond_trig 202
+	setcycle 59 cresp "/"
+	setcycle 59 word_trig 10
+	setcycle 59 ITI 350
+	setcycle 60 target DANCER
+	setcycle 60 targ_type CW_L
+	setcycle 60 cond_trig 202
+	setcycle 60 cresp "/"
+	setcycle 60 word_trig 11
+	setcycle 60 ITI 250
+	setcycle 61 target DREAMER
+	setcycle 61 targ_type CW_L
+	setcycle 61 cond_trig 202
+	setcycle 61 cresp "/"
+	setcycle 61 word_trig 12
+	setcycle 61 ITI 250
+	setcycle 62 target PUSHER
+	setcycle 62 targ_type CW_L
+	setcycle 62 cond_trig 202
+	setcycle 62 cresp "/"
+	setcycle 62 word_trig 13
+	setcycle 62 ITI 250
+	setcycle 63 target FEEDER
+	setcycle 63 targ_type CW_L
+	setcycle 63 cond_trig 202
+	setcycle 63 cresp "/"
+	setcycle 63 word_trig 14
+	setcycle 63 ITI 350
+	setcycle 64 target CLEANER
+	setcycle 64 targ_type CW_L
+	setcycle 64 cond_trig 202
+	setcycle 64 cresp "/"
+	setcycle 64 word_trig 15
+	setcycle 64 ITI 400
+	setcycle 65 target HEATER
+	setcycle 65 targ_type CW_L
+	setcycle 65 cond_trig 202
+	setcycle 65 cresp "/"
+	setcycle 65 word_trig 16
+	setcycle 65 ITI 300
+	setcycle 66 target STRIKER
+	setcycle 66 targ_type CW_L
+	setcycle 66 cond_trig 202
+	setcycle 66 cresp "/"
+	setcycle 66 word_trig 17
+	setcycle 66 ITI 250
+	setcycle 67 target PAINTER
+	setcycle 67 targ_type CW_L
+	setcycle 67 cond_trig 202
+	setcycle 67 cresp "/"
+	setcycle 67 word_trig 18
+	setcycle 67 ITI 350
+	setcycle 68 target SHAMEFUL
+	setcycle 68 targ_type CW_L
+	setcycle 68 cond_trig 202
+	setcycle 68 cresp "/"
+	setcycle 68 word_trig 19
+	setcycle 68 ITI 200
+	setcycle 69 target FAITHFUL
+	setcycle 69 targ_type CW_L
+	setcycle 69 cond_trig 202
+	setcycle 69 cresp "/"
+	setcycle 69 word_trig 20
+	setcycle 69 ITI 400
+	setcycle 70 target DOUBTFUL
+	setcycle 70 targ_type CW_L
+	setcycle 70 cond_trig 202
+	setcycle 70 cresp "/"
+	setcycle 70 word_trig 21
+	setcycle 70 ITI 300
+	setcycle 71 target FLEXIBLE
+	setcycle 71 targ_type CW_L
+	setcycle 71 cond_trig 202
+	setcycle 71 cresp "/"
+	setcycle 71 word_trig 22
+	setcycle 71 ITI 250
+	setcycle 72 target KICKING
+	setcycle 72 targ_type CW_L
+	setcycle 72 cond_trig 202
+	setcycle 72 cresp "/"
+	setcycle 72 word_trig 23
+	setcycle 72 ITI 350
+	setcycle 73 target COOLING
+	setcycle 73 targ_type CW_L
+	setcycle 73 cond_trig 202
+	setcycle 73 cresp "/"
+	setcycle 73 word_trig 24
+	setcycle 73 ITI 400
+	setcycle 74 target PARKING
+	setcycle 74 targ_type CW_L
+	setcycle 74 cond_trig 202
+	setcycle 74 cresp "/"
+	setcycle 74 word_trig 25
+	setcycle 74 ITI 350
+	setcycle 75 target GUARDING
+	setcycle 75 targ_type CW_L
+	setcycle 75 cond_trig 202
+	setcycle 75 cresp "/"
+	setcycle 75 word_trig 26
+	setcycle 75 ITI 350
+	setcycle 76 target LAUGHING
+	setcycle 76 targ_type CW_L
+	setcycle 76 cond_trig 202
+	setcycle 76 cresp "/"
+	setcycle 76 word_trig 27
+	setcycle 76 ITI 250
+	setcycle 77 target DAMPISH
+	setcycle 77 targ_type CW_L
+	setcycle 77 cond_trig 202
+	setcycle 77 cresp "/"
+	setcycle 77 word_trig 28
+	setcycle 77 ITI 300
+	setcycle 78 target STYLISH
+	setcycle 78 targ_type CW_L
+	setcycle 78 cond_trig 202
+	setcycle 78 cresp "/"
+	setcycle 78 word_trig 29
+	setcycle 78 ITI 400
+	setcycle 79 target JUMPING
+	setcycle 79 targ_type CW_L
+	setcycle 79 cond_trig 202
+	setcycle 79 cresp "/"
+	setcycle 79 word_trig 30
+	setcycle 79 ITI 350
+	setcycle 80 target GUILELESS
+	setcycle 80 targ_type CW_L
+	setcycle 80 cond_trig 202
+	setcycle 80 cresp "/"
+	setcycle 80 word_trig 31
+	setcycle 80 ITI 350
+	setcycle 81 target BOOTLESS
+	setcycle 81 targ_type CW_L
+	setcycle 81 cond_trig 202
+	setcycle 81 cresp "/"
+	setcycle 81 word_trig 32
+	setcycle 81 ITI 200
+	setcycle 82 target CLOUDLESS
+	setcycle 82 targ_type CW_L
+	setcycle 82 cond_trig 202
+	setcycle 82 cresp "/"
+	setcycle 82 word_trig 33
+	setcycle 82 ITI 400
+	setcycle 83 target BONELESS
+	setcycle 83 targ_type CW_L
+	setcycle 83 cond_trig 202
+	setcycle 83 cresp "/"
+	setcycle 83 word_trig 34
+	setcycle 83 ITI 200
+	setcycle 84 target SHAPELY
+	setcycle 84 targ_type CW_L
+	setcycle 84 cond_trig 202
+	setcycle 84 cresp "/"
+	setcycle 84 word_trig 35
+	setcycle 84 ITI 400
+	setcycle 85 target QUIETLY
+	setcycle 85 targ_type CW_L
+	setcycle 85 cond_trig 202
+	setcycle 85 cresp "/"
+	setcycle 85 word_trig 36
+	setcycle 85 ITI 400
+	setcycle 86 target WRONGLY
+	setcycle 86 targ_type CW_L
+	setcycle 86 cond_trig 202
+	setcycle 86 cresp "/"
+	setcycle 86 word_trig 37
+	setcycle 86 ITI 400
+	setcycle 87 target EXCITEMENT
+	setcycle 87 targ_type CW_L
+	setcycle 87 cond_trig 202
+	setcycle 87 cresp "/"
+	setcycle 87 word_trig 38
+	setcycle 87 ITI 250
+	setcycle 88 target DEAFNESS
+	setcycle 88 targ_type CW_L
+	setcycle 88 cond_trig 202
+	setcycle 88 cresp "/"
+	setcycle 88 word_trig 39
+	setcycle 88 ITI 250
+	setcycle 89 target BLINDNESS
+	setcycle 89 targ_type CW_L
+	setcycle 89 cond_trig 202
+	setcycle 89 cresp "/"
+	setcycle 89 word_trig 40
+	setcycle 89 ITI 400
+	setcycle 90 target MADNESS
+	setcycle 90 targ_type CW_L
+	setcycle 90 cond_trig 202
+	setcycle 90 cresp "/"
+	setcycle 90 word_trig 41
+	setcycle 90 ITI 300
+	setcycle 91 target DRYNESS
+	setcycle 91 targ_type CW_L
+	setcycle 91 cond_trig 202
+	setcycle 91 cresp "/"
+	setcycle 91 word_trig 42
+	setcycle 91 ITI 400
+	setcycle 92 target SAILOR
+	setcycle 92 targ_type CW_L
+	setcycle 92 cond_trig 202
+	setcycle 92 cresp "/"
+	setcycle 92 word_trig 43
+	setcycle 92 ITI 200
+	setcycle 93 target CONDUCTOR
+	setcycle 93 targ_type CW_L
+	setcycle 93 cond_trig 202
+	setcycle 93 cresp "/"
+	setcycle 93 word_trig 44
+	setcycle 93 ITI 400
+	setcycle 94 target EDITOR
+	setcycle 94 targ_type CW_L
+	setcycle 94 cond_trig 202
+	setcycle 94 cresp "/"
+	setcycle 94 word_trig 45
+	setcycle 94 ITI 350
+	setcycle 95 target COLLECTOR
+	setcycle 95 targ_type CW_L
+	setcycle 95 cond_trig 202
+	setcycle 95 cresp "/"
+	setcycle 95 word_trig 46
+	setcycle 95 ITI 200
+	setcycle 96 target PROFESSOR
+	setcycle 96 targ_type CW_L
+	setcycle 96 cond_trig 202
+	setcycle 96 cresp "/"
+	setcycle 96 word_trig 47
+	setcycle 96 ITI 300
+	setcycle 97 target WEEDY
+	setcycle 97 targ_type CW_L
+	setcycle 97 cond_trig 202
+	setcycle 97 cresp "/"
+	setcycle 97 word_trig 48
+	setcycle 97 ITI 300
+	setcycle 98 target CREAMY
+	setcycle 98 targ_type CW_L
+	setcycle 98 cond_trig 202
+	setcycle 98 cresp "/"
+	setcycle 98 word_trig 49
+	setcycle 98 ITI 250
+	setcycle 99 target VERBAL
+	setcycle 99 targ_type CW_L
+	setcycle 99 cond_trig 202
+	setcycle 99 cresp "/"
+	setcycle 99 word_trig 50
+	setcycle 99 ITI 200
+	setcycle 100 target MELTANCE
+	setcycle 100 targ_type NW_S_COMP
+	setcycle 100 cond_trig 203
+	setcycle 100 cresp z
+	setcycle 100 word_trig 1
+	setcycle 100 ITI 200
+	setcycle 101 target HAPPENANCE
+	setcycle 101 targ_type NW_S_COMP
+	setcycle 101 cond_trig 203
+	setcycle 101 cresp z
+	setcycle 101 word_trig 2
+	setcycle 101 ITI 200
+	setcycle 102 target LIDARY
+	setcycle 102 targ_type NW_S_COMP
+	setcycle 102 cond_trig 203
+	setcycle 102 cresp z
+	setcycle 102 word_trig 3
+	setcycle 102 ITI 250
+	setcycle 103 target FIGER
+	setcycle 103 targ_type NW_S_COMP
+	setcycle 103 cond_trig 203
+	setcycle 103 cresp z
+	setcycle 103 word_trig 4
+	setcycle 103 ITI 300
+	setcycle 104 target BEERER
+	setcycle 104 targ_type NW_S_COMP
+	setcycle 104 cond_trig 203
+	setcycle 104 cresp z
+	setcycle 104 word_trig 5
+	setcycle 104 ITI 250
+	setcycle 105 target FANFUL
+	setcycle 105 targ_type NW_S_COMP
+	setcycle 105 cond_trig 203
+	setcycle 105 cresp z
+	setcycle 105 word_trig 6
+	setcycle 105 ITI 200
+	setcycle 106 target ALTARIC
+	setcycle 106 targ_type NW_S_COMP
+	setcycle 106 cond_trig 203
+	setcycle 106 cresp z
+	setcycle 106 word_trig 7
+	setcycle 106 ITI 400
+	setcycle 107 target ANTISM
+	setcycle 107 targ_type NW_S_COMP
+	setcycle 107 cond_trig 203
+	setcycle 107 cresp z
+	setcycle 107 word_trig 8
+	setcycle 107 ITI 200
+	setcycle 108 target ARIDISM
+	setcycle 108 targ_type NW_S_COMP
+	setcycle 108 cond_trig 203
+	setcycle 108 cresp z
+	setcycle 108 word_trig 9
+	setcycle 108 ITI 400
+	setcycle 109 target ELMIST
+	setcycle 109 targ_type NW_S_COMP
+	setcycle 109 cond_trig 203
+	setcycle 109 cresp z
+	setcycle 109 word_trig 10
+	setcycle 109 ITI 200
+	setcycle 110 target CURTITY
+	setcycle 110 targ_type NW_S_COMP
+	setcycle 110 cond_trig 203
+	setcycle 110 cresp z
+	setcycle 110 word_trig 11
+	setcycle 110 ITI 300
+	setcycle 111 target DUMBITY
+	setcycle 111 targ_type NW_S_COMP
+	setcycle 111 cond_trig 203
+	setcycle 111 cresp z
+	setcycle 111 word_trig 12
+	setcycle 111 ITI 200
+	setcycle 112 target PILLIZE
+	setcycle 112 targ_type NW_S_COMP
+	setcycle 112 cond_trig 203
+	setcycle 112 cresp z
+	setcycle 112 word_trig 13
+	setcycle 112 ITI 200
+	setcycle 113 target TREASONIZE
+	setcycle 113 targ_type NW_S_COMP
+	setcycle 113 cond_trig 203
+	setcycle 113 cresp z
+	setcycle 113 word_trig 14
+	setcycle 113 ITI 250
+	setcycle 114 target TRUENESS
+	setcycle 114 targ_type NW_S_COMP
+	setcycle 114 cond_trig 203
+	setcycle 114 cresp z
+	setcycle 114 word_trig 15
+	setcycle 114 ITI 400
+	setcycle 115 target BRANCHER
+	setcycle 115 targ_type NW_S_COMP
+	setcycle 115 cond_trig 203
+	setcycle 115 cresp z
+	setcycle 115 word_trig 16
+	setcycle 115 ITI 250
+	setcycle 116 target PRINCEMENT
+	setcycle 116 targ_type NW_S_COMP
+	setcycle 116 cond_trig 203
+	setcycle 116 cresp z
+	setcycle 116 word_trig 17
+	setcycle 116 ITI 350
+	setcycle 117 target HEIGHTENCE
+	setcycle 117 targ_type NW_S_COMP
+	setcycle 117 cond_trig 203
+	setcycle 117 cresp z
+	setcycle 117 word_trig 18
+	setcycle 117 ITI 350
+	setcycle 118 target ADOPTISH
+	setcycle 118 targ_type NW_S_COMP
+	setcycle 118 cond_trig 203
+	setcycle 118 cresp z
+	setcycle 118 word_trig 19
+	setcycle 118 ITI 200
+	setcycle 119 target EJECTENCE
+	setcycle 119 targ_type NW_S_COMP
+	setcycle 119 cond_trig 203
+	setcycle 119 cresp z
+	setcycle 119 word_trig 20
+	setcycle 119 ITI 350
+	setcycle 120 target WELDIC
+	setcycle 120 targ_type NW_S_COMP
+	setcycle 120 cond_trig 203
+	setcycle 120 cresp z
+	setcycle 120 word_trig 21
+	setcycle 120 ITI 350
+	setcycle 121 target DEBTISH
+	setcycle 121 targ_type NW_S_COMP
+	setcycle 121 cond_trig 203
+	setcycle 121 cresp z
+	setcycle 121 word_trig 22
+	setcycle 121 ITI 350
+	setcycle 122 target YANKORY
+	setcycle 122 targ_type NW_S_COMP
+	setcycle 122 cond_trig 203
+	setcycle 122 cresp z
+	setcycle 122 word_trig 23
+	setcycle 122 ITI 200
+	setcycle 123 target FIENDISM
+	setcycle 123 targ_type NW_S_COMP
+	setcycle 123 cond_trig 203
+	setcycle 123 cresp z
+	setcycle 123 word_trig 24
+	setcycle 123 ITI 350
+	setcycle 124 target HUMIDOUS
+	setcycle 124 targ_type NW_S_COMP
+	setcycle 124 cond_trig 203
+	setcycle 124 cresp z
+	setcycle 124 word_trig 25
+	setcycle 124 ITI 350
+	setcycle 125 target STIRANCE
+	setcycle 125 targ_type NW_L_COMP
+	setcycle 125 cond_trig 204
+	setcycle 125 cresp z
+	setcycle 125 word_trig 1
+	setcycle 125 ITI 250
+	setcycle 126 target TRIPARY
+	setcycle 126 targ_type NW_L_COMP
+	setcycle 126 cond_trig 204
+	setcycle 126 cresp z
+	setcycle 126 word_trig 2
+	setcycle 126 ITI 250
+	setcycle 127 target FLITENCE
+	setcycle 127 targ_type NW_L_COMP
+	setcycle 127 cond_trig 204
+	setcycle 127 cresp z
+	setcycle 127 word_trig 3
+	setcycle 127 ITI 400
+	setcycle 128 target RIPENCE
+	setcycle 128 targ_type NW_L_COMP
+	setcycle 128 cond_trig 204
+	setcycle 128 cresp z
+	setcycle 128 word_trig 4
+	setcycle 128 ITI 400
+	setcycle 129 target SHEETER
+	setcycle 129 targ_type NW_L_COMP
+	setcycle 129 cond_trig 204
+	setcycle 129 cresp z
+	setcycle 129 word_trig 5
+	setcycle 129 ITI 300
+	setcycle 130 target GASFUL
+	setcycle 130 targ_type NW_L_COMP
+	setcycle 130 cond_trig 204
+	setcycle 130 cresp z
+	setcycle 130 word_trig 6
+	setcycle 130 ITI 200
+	setcycle 131 target ANGELISH
+	setcycle 131 targ_type NW_L_COMP
+	setcycle 131 cond_trig 204
+	setcycle 131 cresp z
+	setcycle 131 word_trig 7
+	setcycle 131 ITI 400
+	setcycle 132 target INKISM
+	setcycle 132 targ_type NW_L_COMP
+	setcycle 132 cond_trig 204
+	setcycle 132 cresp z
+	setcycle 132 word_trig 8
+	setcycle 132 ITI 350
+	setcycle 133 target ILLIST
+	setcycle 133 targ_type NW_L_COMP
+	setcycle 133 cond_trig 204
+	setcycle 133 cresp z
+	setcycle 133 word_trig 9
+	setcycle 133 ITI 300
+	setcycle 134 target COLDITY
+	setcycle 134 targ_type NW_L_COMP
+	setcycle 134 cond_trig 204
+	setcycle 134 cresp z
+	setcycle 134 word_trig 10
+	setcycle 134 ITI 400
+	setcycle 135 target MOUTHIZE
+	setcycle 135 targ_type NW_L_COMP
+	setcycle 135 cond_trig 204
+	setcycle 135 cresp z
+	setcycle 135 word_trig 11
+	setcycle 135 ITI 350
+	setcycle 136 target MUDLY
+	setcycle 136 targ_type NW_L_COMP
+	setcycle 136 cond_trig 204
+	setcycle 136 cresp z
+	setcycle 136 word_trig 12
+	setcycle 136 ITI 250
+	setcycle 137 target ADDMENT
+	setcycle 137 targ_type NW_L_COMP
+	setcycle 137 cond_trig 204
+	setcycle 137 cresp z
+	setcycle 137 word_trig 13
+	setcycle 137 ITI 300
+	setcycle 138 target PASSMENT
+	setcycle 138 targ_type NW_L_COMP
+	setcycle 138 cond_trig 204
+	setcycle 138 cresp z
+	setcycle 138 word_trig 14
+	setcycle 138 ITI 400
+	setcycle 139 target FREENESS
+	setcycle 139 targ_type NW_L_COMP
+	setcycle 139 cond_trig 204
+	setcycle 139 cresp z
+	setcycle 139 word_trig 15
+	setcycle 139 ITI 250
+	setcycle 140 target FLIPORY
+	setcycle 140 targ_type NW_L_COMP
+	setcycle 140 cond_trig 204
+	setcycle 140 cresp z
+	setcycle 140 word_trig 16
+	setcycle 140 ITI 200
+	setcycle 141 target FELLOWOUS
+	setcycle 141 targ_type NW_L_COMP
+	setcycle 141 cond_trig 204
+	setcycle 141 cresp z
+	setcycle 141 word_trig 17
+	setcycle 141 ITI 300
+	setcycle 142 target BOILOUS
+	setcycle 142 targ_type NW_L_COMP
+	setcycle 142 cond_trig 204
+	setcycle 142 cresp z
+	setcycle 142 word_trig 18
+	setcycle 142 ITI 400
+	setcycle 143 target KINGISM
+	setcycle 143 targ_type NW_L_COMP
+	setcycle 143 cond_trig 204
+	setcycle 143 cresp z
+	setcycle 143 word_trig 19
+	setcycle 143 ITI 300
+	setcycle 144 target NORTHIZE
+	setcycle 144 targ_type NW_L_COMP
+	setcycle 144 cond_trig 204
+	setcycle 144 cresp z
+	setcycle 144 word_trig 20
+	setcycle 144 ITI 300
+	setcycle 145 target EMPLOYNESS
+	setcycle 145 targ_type NW_L_COMP
+	setcycle 145 cond_trig 204
+	setcycle 145 cresp z
+	setcycle 145 word_trig 21
+	setcycle 145 ITI 300
+	setcycle 146 target BINDIC
+	setcycle 146 targ_type NW_L_COMP
+	setcycle 146 cond_trig 204
+	setcycle 146 cresp z
+	setcycle 146 word_trig 22
+	setcycle 146 ITI 300
+	setcycle 147 target BREAKITY
+	setcycle 147 targ_type NW_L_COMP
+	setcycle 147 cond_trig 204
+	setcycle 147 cresp z
+	setcycle 147 word_trig 23
+	setcycle 147 ITI 250
+	setcycle 148 target AGREELY
+	setcycle 148 targ_type NW_L_COMP
+	setcycle 148 cond_trig 204
+	setcycle 148 cresp z
+	setcycle 148 word_trig 24
+	setcycle 148 ITI 350
+	setcycle 149 target PITCHORY
+	setcycle 149 targ_type NW_L_COMP
+	setcycle 149 cond_trig 204
+	setcycle 149 cresp z
+	setcycle 149 word_trig 25
+	setcycle 149 ITI 200
+	setcycle 150 target SOCKETEL
+	setcycle 150 targ_type NW_S_SIMP
+	setcycle 150 cond_trig 205
+	setcycle 150 cresp z
+	setcycle 150 word_trig 1
+	setcycle 150 ITI 300
+	setcycle 151 target GUMFIL
+	setcycle 151 targ_type NW_S_SIMP
+	setcycle 151 cond_trig 205
+	setcycle 151 cresp z
+	setcycle 151 word_trig 2
+	setcycle 151 ITI 200
+	setcycle 152 target HEIRIG
+	setcycle 152 targ_type NW_S_SIMP
+	setcycle 152 cond_trig 205
+	setcycle 152 cresp z
+	setcycle 152 word_trig 3
+	setcycle 152 ITI 300
+	setcycle 153 target AIDIG
+	setcycle 153 targ_type NW_S_SIMP
+	setcycle 153 cond_trig 205
+	setcycle 153 cresp z
+	setcycle 153 word_trig 4
+	setcycle 153 ITI 400
+	setcycle 154 target URNILT
+	setcycle 154 targ_type NW_S_SIMP
+	setcycle 154 cond_trig 205
+	setcycle 154 cresp z
+	setcycle 154 word_trig 5
+	setcycle 154 ITI 400
+	setcycle 155 target RAMPIME
+	setcycle 155 targ_type NW_S_SIMP
+	setcycle 155 cond_trig 205
+	setcycle 155 cresp z
+	setcycle 155 word_trig 6
+	setcycle 155 ITI 400
+	setcycle 156 target JAWLA
+	setcycle 156 targ_type NW_S_SIMP
+	setcycle 156 cond_trig 205
+	setcycle 156 cresp z
+	setcycle 156 word_trig 7
+	setcycle 156 ITI 200
+	setcycle 157 target OPPOSEMANT
+	setcycle 157 targ_type NW_S_SIMP
+	setcycle 157 cond_trig 205
+	setcycle 157 cresp z
+	setcycle 157 word_trig 8
+	setcycle 157 ITI 200
+	setcycle 158 target NEXTNELS
+	setcycle 158 targ_type NW_S_SIMP
+	setcycle 158 cond_trig 205
+	setcycle 158 cresp z
+	setcycle 158 word_trig 9
+	setcycle 158 ITI 300
+	setcycle 159 target BASKODY
+	setcycle 159 targ_type NW_S_SIMP
+	setcycle 159 cond_trig 205
+	setcycle 159 cresp z
+	setcycle 159 word_trig 10
+	setcycle 159 ITI 350
+	setcycle 160 target DIGODY
+	setcycle 160 targ_type NW_S_SIMP
+	setcycle 160 cond_trig 205
+	setcycle 160 cresp z
+	setcycle 160 word_trig 11
+	setcycle 160 ITI 250
+	setcycle 161 target WARNODY
+	setcycle 161 targ_type NW_S_SIMP
+	setcycle 161 cond_trig 205
+	setcycle 161 cresp z
+	setcycle 161 word_trig 12
+	setcycle 161 ITI 300
+	setcycle 162 target BOLTOES
+	setcycle 162 targ_type NW_S_SIMP
+	setcycle 162 cond_trig 205
+	setcycle 162 cresp z
+	setcycle 162 word_trig 13
+	setcycle 162 ITI 300
+	setcycle 163 target HELMETOES
+	setcycle 163 targ_type NW_S_SIMP
+	setcycle 163 cond_trig 205
+	setcycle 163 cresp z
+	setcycle 163 word_trig 14
+	setcycle 163 ITI 300
+	setcycle 164 target SCHEMENELS
+	setcycle 164 targ_type NW_S_SIMP
+	setcycle 164 cond_trig 205
+	setcycle 164 cresp z
+	setcycle 164 word_trig 15
+	setcycle 164 ITI 400
+	setcycle 165 target ACREMANT
+	setcycle 165 targ_type NW_S_SIMP
+	setcycle 165 cond_trig 205
+	setcycle 165 cresp z
+	setcycle 165 word_trig 16
+	setcycle 165 ITI 350
+	setcycle 166 target TILTADY
+	setcycle 166 targ_type NW_S_SIMP
+	setcycle 166 cond_trig 205
+	setcycle 166 cresp z
+	setcycle 166 word_trig 17
+	setcycle 166 ITI 300
+	setcycle 167 target MEDICALADY
+	setcycle 167 targ_type NW_S_SIMP
+	setcycle 167 cond_trig 205
+	setcycle 167 cresp z
+	setcycle 167 word_trig 18
+	setcycle 167 ITI 400
+	setcycle 168 target ZOOMFIL
+	setcycle 168 targ_type NW_S_SIMP
+	setcycle 168 cond_trig 205
+	setcycle 168 cresp z
+	setcycle 168 word_trig 19
+	setcycle 168 ITI 250
+	setcycle 169 target YIELDILT
+	setcycle 169 targ_type NW_S_SIMP
+	setcycle 169 cond_trig 205
+	setcycle 169 cresp z
+	setcycle 169 word_trig 20
+	setcycle 169 ITI 300
+	setcycle 170 target WINKIDY
+	setcycle 170 targ_type NW_S_SIMP
+	setcycle 170 cond_trig 205
+	setcycle 170 cresp z
+	setcycle 170 word_trig 21
+	setcycle 170 ITI 300
+	setcycle 171 target THRILLANGE
+	setcycle 171 targ_type NW_S_SIMP
+	setcycle 171 cond_trig 205
+	setcycle 171 cresp z
+	setcycle 171 word_trig 22
+	setcycle 171 ITI 200
+	setcycle 172 target NULLITH
+	setcycle 172 targ_type NW_S_SIMP
+	setcycle 172 cond_trig 205
+	setcycle 172 cresp z
+	setcycle 172 word_trig 23
+	setcycle 172 ITI 200
+	setcycle 173 target FEVERIME
+	setcycle 173 targ_type NW_S_SIMP
+	setcycle 173 cond_trig 205
+	setcycle 173 cresp z
+	setcycle 173 word_trig 24
+	setcycle 173 ITI 300
+	setcycle 174 target ADVERTISELA
+	setcycle 174 targ_type NW_S_SIMP
+	setcycle 174 cond_trig 205
+	setcycle 174 cresp z
+	setcycle 174 word_trig 25
+	setcycle 174 ITI 400
+	setcycle 175 target PRAYANGE
+	setcycle 175 targ_type NW_L_SIMP
+	setcycle 175 cond_trig 206
+	setcycle 175 cresp z
+	setcycle 175 word_trig 1
+	setcycle 175 ITI 300
+	setcycle 176 target BOGADY
+	setcycle 176 targ_type NW_L_SIMP
+	setcycle 176 cond_trig 206
+	setcycle 176 cresp z
+	setcycle 176 word_trig 2
+	setcycle 176 ITI 400
+	setcycle 177 target BANDADY
+	setcycle 177 targ_type NW_L_SIMP
+	setcycle 177 cond_trig 206
+	setcycle 177 cresp z
+	setcycle 177 word_trig 3
+	setcycle 177 ITI 300
+	setcycle 178 target BEGENGE
+	setcycle 178 targ_type NW_L_SIMP
+	setcycle 178 cond_trig 206
+	setcycle 178 cresp z
+	setcycle 178 word_trig 4
+	setcycle 178 ITI 300
+	setcycle 179 target PICKENGE
+	setcycle 179 targ_type NW_L_SIMP
+	setcycle 179 cond_trig 206
+	setcycle 179 cresp z
+	setcycle 179 word_trig 5
+	setcycle 179 ITI 350
+	setcycle 180 target TAXFIL
+	setcycle 180 targ_type NW_L_SIMP
+	setcycle 180 cond_trig 206
+	setcycle 180 cresp z
+	setcycle 180 word_trig 6
+	setcycle 180 ITI 300
+	setcycle 181 target HABITIG
+	setcycle 181 targ_type NW_L_SIMP
+	setcycle 181 cond_trig 206
+	setcycle 181 cresp z
+	setcycle 181 word_trig 7
+	setcycle 181 ITI 350
+	setcycle 182 target BEANITH
+	setcycle 182 targ_type NW_L_SIMP
+	setcycle 182 cond_trig 206
+	setcycle 182 cresp z
+	setcycle 182 word_trig 8
+	setcycle 182 ITI 300
+	setcycle 183 target WIGITH
+	setcycle 183 targ_type NW_L_SIMP
+	setcycle 183 cond_trig 206
+	setcycle 183 cresp z
+	setcycle 183 word_trig 9
+	setcycle 183 ITI 350
+	setcycle 184 target ELBOWILM
+	setcycle 184 targ_type NW_L_SIMP
+	setcycle 184 cond_trig 206
+	setcycle 184 cresp z
+	setcycle 184 word_trig 10
+	setcycle 184 ITI 300
+	setcycle 185 target WITCHITH
+	setcycle 185 targ_type NW_L_SIMP
+	setcycle 185 cond_trig 206
+	setcycle 185 cresp z
+	setcycle 185 word_trig 11
+	setcycle 185 ITI 350
+	setcycle 186 target EARILT
+	setcycle 186 targ_type NW_L_SIMP
+	setcycle 186 cond_trig 206
+	setcycle 186 cresp z
+	setcycle 186 word_trig 12
+	setcycle 186 ITI 300
+	setcycle 187 target POORIDY
+	setcycle 187 targ_type NW_L_SIMP
+	setcycle 187 cond_trig 206
+	setcycle 187 cresp z
+	setcycle 187 word_trig 13
+	setcycle 187 ITI 400
+	setcycle 188 target NUTLA
+	setcycle 188 targ_type NW_L_SIMP
+	setcycle 188 cond_trig 206
+	setcycle 188 cresp z
+	setcycle 188 word_trig 14
+	setcycle 188 ITI 350
+	setcycle 189 target TOWERLA
+	setcycle 189 targ_type NW_L_SIMP
+	setcycle 189 cond_trig 206
+	setcycle 189 cresp z
+	setcycle 189 word_trig 15
+	setcycle 189 ITI 200
+	setcycle 190 target SHOOTMANT
+	setcycle 190 targ_type NW_L_SIMP
+	setcycle 190 cond_trig 206
+	setcycle 190 cresp z
+	setcycle 190 word_trig 16
+	setcycle 190 ITI 250
+	setcycle 191 target LONGNELS
+	setcycle 191 targ_type NW_L_SIMP
+	setcycle 191 cond_trig 206
+	setcycle 191 cresp z
+	setcycle 191 word_trig 17
+	setcycle 191 ITI 300
+	setcycle 192 target CLASSOES
+	setcycle 192 targ_type NW_L_SIMP
+	setcycle 192 cond_trig 206
+	setcycle 192 cresp z
+	setcycle 192 word_trig 18
+	setcycle 192 ITI 400
+	setcycle 193 target SMOOTHFIL
+	setcycle 193 targ_type NW_L_SIMP
+	setcycle 193 cond_trig 206
+	setcycle 193 cresp z
+	setcycle 193 word_trig 19
+	setcycle 193 ITI 250
+	setcycle 194 target GROWILT
+	setcycle 194 targ_type NW_L_SIMP
+	setcycle 194 cond_trig 206
+	setcycle 194 cresp z
+	setcycle 194 word_trig 20
+	setcycle 194 ITI 200
+	setcycle 195 target " DRESSODY"
+	setcycle 195 targ_type NW_L_SIMP
+	setcycle 195 cond_trig 206
+	setcycle 195 cresp z
+	setcycle 195 word_trig 21
+	setcycle 195 ITI 250
+	setcycle 196 target CRITICANGE
+	setcycle 196 targ_type NW_L_SIMP
+	setcycle 196 cond_trig 206
+	setcycle 196 cresp z
+	setcycle 196 word_trig 22
+	setcycle 196 ITI 350
+	setcycle 197 target VALIDEL
+	setcycle 197 targ_type NW_L_SIMP
+	setcycle 197 cond_trig 206
+	setcycle 197 cresp z
+	setcycle 197 word_trig 23
+	setcycle 197 ITI 400
+	setcycle 198 target BLOODEL
+	setcycle 198 targ_type NW_L_SIMP
+	setcycle 198 cond_trig 206
+	setcycle 198 cresp z
+	setcycle 198 word_trig 24
+	setcycle 198 ITI 400
+	setcycle 199 target BEARILT
+	setcycle 199 targ_type NW_L_SIMP
+	setcycle 199 cond_trig 206
+	setcycle 199 cresp z
+	setcycle 199 word_trig 25
+	setcycle 199 ITI 250
+	setcycle 200 target FLIRT
+	setcycle 200 targ_type FILL_W
+	setcycle 200 cond_trig 207
+	setcycle 200 cresp "/"
+	setcycle 200 word_trig 1
+	setcycle 200 ITI 400
+	setcycle 201 target WEIRD
+	setcycle 201 targ_type FILL_W
+	setcycle 201 cond_trig 207
+	setcycle 201 cresp "/"
+	setcycle 201 word_trig 2
+	setcycle 201 ITI 350
+	setcycle 202 target BALD
+	setcycle 202 targ_type FILL_W
+	setcycle 202 cond_trig 207
+	setcycle 202 cresp "/"
+	setcycle 202 word_trig 3
+	setcycle 202 ITI 300
+	setcycle 203 target BLUNT
+	setcycle 203 targ_type FILL_W
+	setcycle 203 cond_trig 207
+	setcycle 203 cresp "/"
+	setcycle 203 word_trig 4
+	setcycle 203 ITI 300
+	setcycle 204 target BLEAK
+	setcycle 204 targ_type FILL_W
+	setcycle 204 cond_trig 207
+	setcycle 204 cresp "/"
+	setcycle 204 word_trig 5
+	setcycle 204 ITI 200
+	setcycle 205 target SLIM
+	setcycle 205 targ_type FILL_W
+	setcycle 205 cond_trig 207
+	setcycle 205 cresp "/"
+	setcycle 205 word_trig 6
+	setcycle 205 ITI 250
+	setcycle 206 target PREACH
+	setcycle 206 targ_type FILL_W
+	setcycle 206 cond_trig 207
+	setcycle 206 cresp "/"
+	setcycle 206 word_trig 7
+	setcycle 206 ITI 250
+	setcycle 207 target BRISK
+	setcycle 207 targ_type FILL_W
+	setcycle 207 cond_trig 207
+	setcycle 207 cresp "/"
+	setcycle 207 word_trig 8
+	setcycle 207 ITI 350
+	setcycle 208 target LEAK
+	setcycle 208 targ_type FILL_W
+	setcycle 208 cond_trig 207
+	setcycle 208 cresp "/"
+	setcycle 208 word_trig 9
+	setcycle 208 ITI 350
+	setcycle 209 target BRASS
+	setcycle 209 targ_type FILL_W
+	setcycle 209 cond_trig 207
+	setcycle 209 cresp "/"
+	setcycle 209 word_trig 10
+	setcycle 209 ITI 200
+	setcycle 210 target CHIP
+	setcycle 210 targ_type FILL_W
+	setcycle 210 cond_trig 207
+	setcycle 210 cresp "/"
+	setcycle 210 word_trig 11
+	setcycle 210 ITI 400
+	setcycle 211 target WEAVE
+	setcycle 211 targ_type FILL_W
+	setcycle 211 cond_trig 207
+	setcycle 211 cresp "/"
+	setcycle 211 word_trig 12
+	setcycle 211 ITI 250
+	setcycle 212 target WRECK
+	setcycle 212 targ_type FILL_W
+	setcycle 212 cond_trig 207
+	setcycle 212 cresp "/"
+	setcycle 212 word_trig 13
+	setcycle 212 ITI 200
+	setcycle 213 target GLOOM
+	setcycle 213 targ_type FILL_W
+	setcycle 213 cond_trig 207
+	setcycle 213 cresp "/"
+	setcycle 213 word_trig 14
+	setcycle 213 ITI 350
+	setcycle 214 target STARVE
+	setcycle 214 targ_type FILL_W
+	setcycle 214 cond_trig 207
+	setcycle 214 cresp "/"
+	setcycle 214 word_trig 15
+	setcycle 214 ITI 250
+	setcycle 215 target STEEP
+	setcycle 215 targ_type FILL_W
+	setcycle 215 cond_trig 207
+	setcycle 215 cresp "/"
+	setcycle 215 word_trig 16
+	setcycle 215 ITI 400
+	setcycle 216 target FOLLOW
+	setcycle 216 targ_type FILL_W
+	setcycle 216 cond_trig 207
+	setcycle 216 cresp "/"
+	setcycle 216 word_trig 17
+	setcycle 216 ITI 350
+	setcycle 217 target CEASE
+	setcycle 217 targ_type FILL_W
+	setcycle 217 cond_trig 207
+	setcycle 217 cresp "/"
+	setcycle 217 word_trig 18
+	setcycle 217 ITI 400
+	setcycle 218 target DRUNK
+	setcycle 218 targ_type FILL_W
+	setcycle 218 cond_trig 207
+	setcycle 218 cresp "/"
+	setcycle 218 word_trig 19
+	setcycle 218 ITI 400
+	setcycle 219 target CRUNCH
+	setcycle 219 targ_type FILL_W
+	setcycle 219 cond_trig 207
+	setcycle 219 cresp "/"
+	setcycle 219 word_trig 20
+	setcycle 219 ITI 400
+	setcycle 220 target QUIT
+	setcycle 220 targ_type FILL_W
+	setcycle 220 cond_trig 207
+	setcycle 220 cresp "/"
+	setcycle 220 word_trig 21
+	setcycle 220 ITI 400
+	setcycle 221 target SPLICE
+	setcycle 221 targ_type FILL_W
+	setcycle 221 cond_trig 207
+	setcycle 221 cresp "/"
+	setcycle 221 word_trig 22
+	setcycle 221 ITI 250
+	setcycle 222 target LITHE
+	setcycle 222 targ_type FILL_W
+	setcycle 222 cond_trig 207
+	setcycle 222 cresp "/"
+	setcycle 222 word_trig 23
+	setcycle 222 ITI 400
+	setcycle 223 target FIERCE
+	setcycle 223 targ_type FILL_W
+	setcycle 223 cond_trig 207
+	setcycle 223 cresp "/"
+	setcycle 223 word_trig 24
+	setcycle 223 ITI 250
+	setcycle 224 target EAT
+	setcycle 224 targ_type FILL_W
+	setcycle 224 cond_trig 207
+	setcycle 224 cresp "/"
+	setcycle 224 word_trig 25
+	setcycle 224 ITI 400
+	setcycle 225 target MOURN
+	setcycle 225 targ_type FILL_W
+	setcycle 225 cond_trig 207
+	setcycle 225 cresp "/"
+	setcycle 225 word_trig 26
+	setcycle 225 ITI 300
+	setcycle 226 target STALK
+	setcycle 226 targ_type FILL_W
+	setcycle 226 cond_trig 207
+	setcycle 226 cresp "/"
+	setcycle 226 word_trig 27
+	setcycle 226 ITI 200
+	setcycle 227 target GOLF
+	setcycle 227 targ_type FILL_W
+	setcycle 227 cond_trig 207
+	setcycle 227 cresp "/"
+	setcycle 227 word_trig 28
+	setcycle 227 ITI 200
+	setcycle 228 target BAKE
+	setcycle 228 targ_type FILL_W
+	setcycle 228 cond_trig 207
+	setcycle 228 cresp "/"
+	setcycle 228 word_trig 29
+	setcycle 228 ITI 300
+	setcycle 229 target FLOAT
+	setcycle 229 targ_type FILL_W
+	setcycle 229 cond_trig 207
+	setcycle 229 cresp "/"
+	setcycle 229 word_trig 30
+	setcycle 229 ITI 200
+	setcycle 230 target FAINT
+	setcycle 230 targ_type FILL_W
+	setcycle 230 cond_trig 207
+	setcycle 230 cresp "/"
+	setcycle 230 word_trig 31
+	setcycle 230 ITI 350
+	setcycle 231 target FLESH
+	setcycle 231 targ_type FILL_W
+	setcycle 231 cond_trig 207
+	setcycle 231 cresp "/"
+	setcycle 231 word_trig 32
+	setcycle 231 ITI 200
+	setcycle 232 target IRON
+	setcycle 232 targ_type FILL_W
+	setcycle 232 cond_trig 207
+	setcycle 232 cresp "/"
+	setcycle 232 word_trig 33
+	setcycle 232 ITI 300
+	setcycle 233 target TASTE
+	setcycle 233 targ_type FILL_W
+	setcycle 233 cond_trig 207
+	setcycle 233 cresp "/"
+	setcycle 233 word_trig 34
+	setcycle 233 ITI 250
+	setcycle 234 target LEGAL
+	setcycle 234 targ_type FILL_W
+	setcycle 234 cond_trig 207
+	setcycle 234 cresp "/"
+	setcycle 234 word_trig 35
+	setcycle 234 ITI 200
+	setcycle 235 target SICK
+	setcycle 235 targ_type FILL_W
+	setcycle 235 cond_trig 207
+	setcycle 235 cresp "/"
+	setcycle 235 word_trig 36
+	setcycle 235 ITI 300
+	setcycle 236 target SHIP
+	setcycle 236 targ_type FILL_W
+	setcycle 236 cond_trig 207
+	setcycle 236 cresp "/"
+	setcycle 236 word_trig 37
+	setcycle 236 ITI 250
+	setcycle 237 target COOK
+	setcycle 237 targ_type FILL_W
+	setcycle 237 cond_trig 207
+	setcycle 237 cresp "/"
+	setcycle 237 word_trig 38
+	setcycle 237 ITI 250
+	setcycle 238 target LIFT
+	setcycle 238 targ_type FILL_W
+	setcycle 238 cond_trig 207
+	setcycle 238 cresp "/"
+	setcycle 238 word_trig 39
+	setcycle 238 ITI 350
+	setcycle 239 target SOUGHT
+	setcycle 239 targ_type FILL_W
+	setcycle 239 cond_trig 207
+	setcycle 239 cresp "/"
+	setcycle 239 word_trig 40
+	setcycle 239 ITI 250
+	setcycle 240 target PACK
+	setcycle 240 targ_type FILL_W
+	setcycle 240 cond_trig 207
+	setcycle 240 cresp "/"
+	setcycle 240 word_trig 41
+	setcycle 240 ITI 250
+	setcycle 241 target BOX
+	setcycle 241 targ_type FILL_W
+	setcycle 241 cond_trig 207
+	setcycle 241 cresp "/"
+	setcycle 241 word_trig 42
+	setcycle 241 ITI 300
+	setcycle 242 target SOFT
+	setcycle 242 targ_type FILL_W
+	setcycle 242 cond_trig 207
+	setcycle 242 cresp "/"
+	setcycle 242 word_trig 43
+	setcycle 242 ITI 250
+	setcycle 243 target OLD
+	setcycle 243 targ_type FILL_W
+	setcycle 243 cond_trig 207
+	setcycle 243 cresp "/"
+	setcycle 243 word_trig 44
+	setcycle 243 ITI 200
+	setcycle 244 target TAX
+	setcycle 244 targ_type FILL_W
+	setcycle 244 cond_trig 207
+	setcycle 244 cresp "/"
+	setcycle 244 word_trig 45
+	setcycle 244 ITI 200
+	setcycle 245 target SAVE
+	setcycle 245 targ_type FILL_W
+	setcycle 245 cond_trig 207
+	setcycle 245 cresp "/"
+	setcycle 245 word_trig 46
+	setcycle 245 ITI 200
+	setcycle 246 target TEST
+	setcycle 246 targ_type FILL_W
+	setcycle 246 cond_trig 207
+	setcycle 246 cresp "/"
+	setcycle 246 word_trig 47
+	setcycle 246 ITI 200
+	setcycle 247 target TREAT
+	setcycle 247 targ_type FILL_W
+	setcycle 247 cond_trig 207
+	setcycle 247 cresp "/"
+	setcycle 247 word_trig 48
+	setcycle 247 ITI 250
+	setcycle 248 target SUIT
+	setcycle 248 targ_type FILL_W
+	setcycle 248 cond_trig 207
+	setcycle 248 cresp "/"
+	setcycle 248 word_trig 49
+	setcycle 248 ITI 250
+	setcycle 249 target SMOKE
+	setcycle 249 targ_type FILL_W
+	setcycle 249 cond_trig 207
+	setcycle 249 cresp "/"
+	setcycle 249 word_trig 50
+	setcycle 249 ITI 250
+	setcycle 250 target BAFED
+	setcycle 250 targ_type FILL_NW
+	setcycle 250 cond_trig 208
+	setcycle 250 cresp z
+	setcycle 250 word_trig 1
+	setcycle 250 ITI 300
+	setcycle 251 target BALFS
+	setcycle 251 targ_type FILL_NW
+	setcycle 251 cond_trig 208
+	setcycle 251 cresp z
+	setcycle 251 word_trig 2
+	setcycle 251 ITI 400
+	setcycle 252 target BLANTH
+	setcycle 252 targ_type FILL_NW
+	setcycle 252 cond_trig 208
+	setcycle 252 cresp z
+	setcycle 252 word_trig 3
+	setcycle 252 ITI 350
+	setcycle 253 target BROUPS
+	setcycle 253 targ_type FILL_NW
+	setcycle 253 cond_trig 208
+	setcycle 253 cresp z
+	setcycle 253 word_trig 4
+	setcycle 253 ITI 200
+	setcycle 254 target BUTE
+	setcycle 254 targ_type FILL_NW
+	setcycle 254 cond_trig 208
+	setcycle 254 cresp z
+	setcycle 254 word_trig 5
+	setcycle 254 ITI 400
+	setcycle 255 target CINDS
+	setcycle 255 targ_type FILL_NW
+	setcycle 255 cond_trig 208
+	setcycle 255 cresp z
+	setcycle 255 word_trig 6
+	setcycle 255 ITI 200
+	setcycle 256 target CORG
+	setcycle 256 targ_type FILL_NW
+	setcycle 256 cond_trig 208
+	setcycle 256 cresp z
+	setcycle 256 word_trig 7
+	setcycle 256 ITI 400
+	setcycle 257 target BLAYS
+	setcycle 257 targ_type FILL_NW
+	setcycle 257 cond_trig 208
+	setcycle 257 cresp z
+	setcycle 257 word_trig 8
+	setcycle 257 ITI 200
+	setcycle 258 target BUWL
+	setcycle 258 targ_type FILL_NW
+	setcycle 258 cond_trig 208
+	setcycle 258 cresp z
+	setcycle 258 word_trig 9
+	setcycle 258 ITI 250
+	setcycle 259 target DARF
+	setcycle 259 targ_type FILL_NW
+	setcycle 259 cond_trig 208
+	setcycle 259 cresp z
+	setcycle 259 word_trig 10
+	setcycle 259 ITI 350
+	setcycle 260 target DARM
+	setcycle 260 targ_type FILL_NW
+	setcycle 260 cond_trig 208
+	setcycle 260 cresp z
+	setcycle 260 word_trig 11
+	setcycle 260 ITI 200
+	setcycle 261 target DASK
+	setcycle 261 targ_type FILL_NW
+	setcycle 261 cond_trig 208
+	setcycle 261 cresp z
+	setcycle 261 word_trig 12
+	setcycle 261 ITI 300
+	setcycle 262 target DASP
+	setcycle 262 targ_type FILL_NW
+	setcycle 262 cond_trig 208
+	setcycle 262 cresp z
+	setcycle 262 word_trig 13
+	setcycle 262 ITI 350
+	setcycle 263 target DELP
+	setcycle 263 targ_type FILL_NW
+	setcycle 263 cond_trig 208
+	setcycle 263 cresp z
+	setcycle 263 word_trig 14
+	setcycle 263 ITI 350
+	setcycle 264 target DOADS
+	setcycle 264 targ_type FILL_NW
+	setcycle 264 cond_trig 208
+	setcycle 264 cresp z
+	setcycle 264 word_trig 15
+	setcycle 264 ITI 350
+	setcycle 265 target DOWED
+	setcycle 265 targ_type FILL_NW
+	setcycle 265 cond_trig 208
+	setcycle 265 cresp z
+	setcycle 265 word_trig 16
+	setcycle 265 ITI 250
+	setcycle 266 target DROES
+	setcycle 266 targ_type FILL_NW
+	setcycle 266 cond_trig 208
+	setcycle 266 cresp z
+	setcycle 266 word_trig 17
+	setcycle 266 ITI 400
+	setcycle 267 target DULKS
+	setcycle 267 targ_type FILL_NW
+	setcycle 267 cond_trig 208
+	setcycle 267 cresp z
+	setcycle 267 word_trig 18
+	setcycle 267 ITI 300
+	setcycle 268 target FALONS
+	setcycle 268 targ_type FILL_NW
+	setcycle 268 cond_trig 208
+	setcycle 268 cresp z
+	setcycle 268 word_trig 19
+	setcycle 268 ITI 200
+	setcycle 269 target TREMP
+	setcycle 269 targ_type FILL_NW
+	setcycle 269 cond_trig 208
+	setcycle 269 cresp z
+	setcycle 269 word_trig 20
+	setcycle 269 ITI 300
+	setcycle 270 target FROES
+	setcycle 270 targ_type FILL_NW
+	setcycle 270 cond_trig 208
+	setcycle 270 cresp z
+	setcycle 270 word_trig 21
+	setcycle 270 ITI 400
+	setcycle 271 target FROT
+	setcycle 271 targ_type FILL_NW
+	setcycle 271 cond_trig 208
+	setcycle 271 cresp z
+	setcycle 271 word_trig 22
+	setcycle 271 ITI 200
+	setcycle 272 target GAIRS
+	setcycle 272 targ_type FILL_NW
+	setcycle 272 cond_trig 208
+	setcycle 272 cresp z
+	setcycle 272 word_trig 23
+	setcycle 272 ITI 200
+	setcycle 273 target GIKE
+	setcycle 273 targ_type FILL_NW
+	setcycle 273 cond_trig 208
+	setcycle 273 cresp z
+	setcycle 273 word_trig 24
+	setcycle 273 ITI 400
+	setcycle 274 target GILN
+	setcycle 274 targ_type FILL_NW
+	setcycle 274 cond_trig 208
+	setcycle 274 cresp z
+	setcycle 274 word_trig 25
+	setcycle 274 ITI 200
+	setcycle 275 target HEAS
+	setcycle 275 targ_type FILL_NW
+	setcycle 275 cond_trig 208
+	setcycle 275 cresp z
+	setcycle 275 word_trig 26
+	setcycle 275 ITI 350
+	setcycle 276 target HEEM
+	setcycle 276 targ_type FILL_NW
+	setcycle 276 cond_trig 208
+	setcycle 276 cresp z
+	setcycle 276 word_trig 27
+	setcycle 276 ITI 300
+	setcycle 277 target HEND
+	setcycle 277 targ_type FILL_NW
+	setcycle 277 cond_trig 208
+	setcycle 277 cresp z
+	setcycle 277 word_trig 28
+	setcycle 277 ITI 400
+	setcycle 278 target HESK
+	setcycle 278 targ_type FILL_NW
+	setcycle 278 cond_trig 208
+	setcycle 278 cresp z
+	setcycle 278 word_trig 29
+	setcycle 278 ITI 200
+	setcycle 279 target HOITS
+	setcycle 279 targ_type FILL_NW
+	setcycle 279 cond_trig 208
+	setcycle 279 cresp z
+	setcycle 279 word_trig 30
+	setcycle 279 ITI 200
+	setcycle 280 target JADS
+	setcycle 280 targ_type FILL_NW
+	setcycle 280 cond_trig 208
+	setcycle 280 cresp z
+	setcycle 280 word_trig 31
+	setcycle 280 ITI 350
+	setcycle 281 target KEMT
+	setcycle 281 targ_type FILL_NW
+	setcycle 281 cond_trig 208
+	setcycle 281 cresp z
+	setcycle 281 word_trig 32
+	setcycle 281 ITI 300
+	setcycle 282 target KRAISE
+	setcycle 282 targ_type FILL_NW
+	setcycle 282 cond_trig 208
+	setcycle 282 cresp z
+	setcycle 282 word_trig 33
+	setcycle 282 ITI 350
+	setcycle 283 target LOLDS
+	setcycle 283 targ_type FILL_NW
+	setcycle 283 cond_trig 208
+	setcycle 283 cresp z
+	setcycle 283 word_trig 34
+	setcycle 283 ITI 250
+	setcycle 284 target PHEEKS
+	setcycle 284 targ_type FILL_NW
+	setcycle 284 cond_trig 208
+	setcycle 284 cresp z
+	setcycle 284 word_trig 35
+	setcycle 284 ITI 250
+	setcycle 285 target PIFTH
+	setcycle 285 targ_type FILL_NW
+	setcycle 285 cond_trig 208
+	setcycle 285 cresp z
+	setcycle 285 word_trig 36
+	setcycle 285 ITI 250
+	setcycle 286 target PLAODS
+	setcycle 286 targ_type FILL_NW
+	setcycle 286 cond_trig 208
+	setcycle 286 cresp z
+	setcycle 286 word_trig 37
+	setcycle 286 ITI 250
+	setcycle 287 target POLT
+	setcycle 287 targ_type FILL_NW
+	setcycle 287 cond_trig 208
+	setcycle 287 cresp z
+	setcycle 287 word_trig 38
+	setcycle 287 ITI 250
+	setcycle 288 target PORDS
+	setcycle 288 targ_type FILL_NW
+	setcycle 288 cond_trig 208
+	setcycle 288 cresp z
+	setcycle 288 word_trig 39
+	setcycle 288 ITI 200
+	setcycle 289 target PUCTS
+	setcycle 289 targ_type FILL_NW
+	setcycle 289 cond_trig 208
+	setcycle 289 cresp z
+	setcycle 289 word_trig 40
+	setcycle 289 ITI 200
+	setcycle 290 target SCURE
+	setcycle 290 targ_type FILL_NW
+	setcycle 290 cond_trig 208
+	setcycle 290 cresp z
+	setcycle 290 word_trig 41
+	setcycle 290 ITI 300
+	setcycle 291 target SMADE
+	setcycle 291 targ_type FILL_NW
+	setcycle 291 cond_trig 208
+	setcycle 291 cresp z
+	setcycle 291 word_trig 42
+	setcycle 291 ITI 200
+	setcycle 292 target SOISE
+	setcycle 292 targ_type FILL_NW
+	setcycle 292 cond_trig 208
+	setcycle 292 cresp z
+	setcycle 292 word_trig 43
+	setcycle 292 ITI 400
+	setcycle 293 target TUEER
+	setcycle 293 targ_type FILL_NW
+	setcycle 293 cond_trig 208
+	setcycle 293 cresp z
+	setcycle 293 word_trig 44
+	setcycle 293 ITI 200
+	setcycle 294 target ULNS
+	setcycle 294 targ_type FILL_NW
+	setcycle 294 cond_trig 208
+	setcycle 294 cresp z
+	setcycle 294 word_trig 45
+	setcycle 294 ITI 400
+	setcycle 295 target VELT
+	setcycle 295 targ_type FILL_NW
+	setcycle 295 cond_trig 208
+	setcycle 295 cresp z
+	setcycle 295 word_trig 46
+	setcycle 295 ITI 400
+	setcycle 296 target VOGS
+	setcycle 296 targ_type FILL_NW
+	setcycle 296 cond_trig 208
+	setcycle 296 cresp z
+	setcycle 296 word_trig 47
+	setcycle 296 ITI 300
+	setcycle 297 target VOOFS
+	setcycle 297 targ_type FILL_NW
+	setcycle 297 cond_trig 208
+	setcycle 297 cresp z
+	setcycle 297 word_trig 48
+	setcycle 297 ITI 300
+	setcycle 298 target VUNKS
+	setcycle 298 targ_type FILL_NW
+	setcycle 298 cond_trig 208
+	setcycle 298 cresp z
+	setcycle 298 word_trig 49
+	setcycle 298 ITI 200
+	setcycle 299 target BORMS
+	setcycle 299 targ_type FILL_NW
+	setcycle 299 cond_trig 208
+	setcycle 299 cresp z
+	setcycle 299 word_trig 50
+	setcycle 299 ITI 400
+	run sequence
+
+define sketchpad break1
+	set duration keypress
+	set description "Displays stimuli"
+	draw textline center=1 color=white font_bold=no font_family=mono font_italic=no font_size=18 html=yes show_if=always text="You've reached the first break!<br /><br />Take a rest for as long as you'd like. <br />Call out or wave to get the experimenter if there is anything you need <br />(e.g. water, to use the restroom, etc.) <br /><br />When you are ready to resume, press the space bar. " x=0 y=0 z_index=0
+
+define sketchpad break2
+	set duration keypress
+	set description "Displays stimuli"
+	draw textline center=1 color=white font_bold=no font_family=mono font_italic=no font_size=18 html=yes show_if=always text="You're halfway done!<br /><br />Take a rest for as long as you'd like. <br />Call out or wave to get the experimenter if there is anything you need <br />(e.g. water, to use the restroom, etc.) <br /><br />When you are ready to resume, press the space bar. " x=0 y=0 z_index=0
+
+define sketchpad break3_1
+	set duration keypress
+	set description "Displays stimuli"
+	draw textline center=1 color=white font_bold=no font_family=mono font_italic=no font_size=18 html=yes show_if=always text="There is one more block left!  <br /><br />Take a rest for as long as you'd like. <br />Call out or wave to get the experimenter if there is anything you need <br />(e.g. water, to use the restroom, etc.) <br /><br />When you are ready to resume, press the space bar. " x=0 y=0 z_index=0
+
+define inline_script canvas
+	set description "Executes Python code"
+	___run__
+	def targcanvasfxn():
+		targcanvas = canvas(autoprepare=False)
+		targcanvas.text(var.target, center=True)
+		targcanvas.color=u"white"
+		targcanvas.background_color=u"black"
+		targcanvas.font_family= u"mono"
+		targcanvas.font_size=18
+		targcanvas.prepare()
+		targcanvas.show()
+		global canvastime
+		canvastime = time.time(targcanvas)		
+		return canvastime
+	__end__
+	set _prepare ""
+
+define inline_script close_port
+	set description "Executes Python code"
+	___run__
+	# finally, we want to make sure that the
+	# connection to the serial port will be stopped
+	# when the experiment is aborted or finished
+	# 
+	exp.cleanup_functions.append(exp.port.close)
+	__end__
+	set _prepare ""
+
+define inline_script cond_trigger
+	set description "Executes Python code"
+	___run__
+	trigger = [self.get("cond_trig")]
+	
+	try:
+	    exp.port.write(trigger)
+	    print('cond trigger has been sent',str(trigger))
+	    self.sleep(10)
+	    exp.port.write([0x00])
+	    self.sleep(10)
+	
+	except:
+		print('cond trigger not sent')
+	__end__
+	set _prepare ""
+
+define inline_script correct_trigger
+	set description "Executes Python code"
+	___run__
+	trigger = [self.get("prime_trig")]
+	
+	try:
+	    exp.port.write(trigger)
+	    print('prime trigger has been sent',str(trigger))
+	    self.sleep(10)
+	    exp.port.write([0x00])
+	    self.sleep(10)
+	
+	except:
+		print('prime trigger not sent')
+	__end__
+	set _prepare ""
+
+define inline_script def_chain
+	set description "Executes Python code"
+	___run__
+	items["target_present"].run = chain(items["target_present"].run, cond_trigger())
+	__end__
+	___prepare__
+	def chain(*functions): 
+		return lambda: [f() for f in functions]
+	
+	def cond_trigger():
+		global io
+		trigger = self.get("cond_trig")
+		port = 0x1FF0
+		try:
+			io.DlPortWritePortUchar(port, trigger)
+		except:
+			print 'failed to send trigger' 
+		global condtrigtime
+		condtrigtime =  self.time()
+	__end__
+
+define sketchpad end_screen
+	set duration keypress
+	set description "Displays stimuli"
+	draw textline center=1 color=white font_bold=no font_family=mono font_italic=no font_size=18 html=yes show_if=always text="You've finished the experiment! <br /><br />Please wait for the experimenter to come in. <br /><br />Thank you! " x=0 y=0 z_index=0
+
+define sketchpad fixation_1
+	set duration 497
+	set description "Displays stimuli"
+	draw line color=white penwidth=1 show_if=always x1=0 x2=0 y1=21 y2=-21 z_index=0
+	draw line color=white penwidth=1 show_if=always x1=-21 x2=21 y1=0 y2=0 z_index=0
+
+define notepad getting_started
+	__note__
+	Welcome to OpenSesame 3.1 "Jazzy James"!
+	If you are new to OpenSesame, it is a good idea to follow one of the tutorials,
+	which can be found on the documentation site:
+	- <http://osdoc.cogsci.nl/>
+	You can also check out the examples. These can be opened via:
+	- Menu -> Tools -> Example experiments.
+	And feel free to ask for help on the forum:
+	- <http://forum.cogsci.nl/>
+	Have fun with OpenSesame!
+	__end__
+	set description "A simple notepad to document your experiment. This plug-in does nothing."
+
+define inline_script inc_counter
+	set description "Executes Python code"
+	___run__
+	exp.set("counter", exp.get("counter")+1)
+	__end__
+	set _prepare ""
+
+define sketchpad instructions_1
+	set duration keypress
+	set description "Displays stimuli"
+	draw textline center=1 color=white font_bold=no font_family=mono font_italic=no font_size=18 html=yes show_if=always text="Welcome! <br /><br />In this experiment, you will be shown words in the center of the screen. <br /><br />Your task is to decide whether the word shown is a *real word* or a *nonreal word.* <br /><br />After the word has displayed, you should respond by pressing the TOP button on the joystick for a REAL word, <br /><br />or the BOTTOM button for a NONREAL word. <br /><br />After every three words, there will be a symbol displayed on the screen that looks like this: <br /><br />(--) <br /><br />which indicates that this is an optimal time for you to blink. <br /><br />If that is not displaying, please try your best to avoid blinking or moving around. <br /><br />After each block of 75 words, you will have self-timed breaks to rest. In total, there will be 4 blocks. At the end, please wait for the experimenter to come in. <br /><br />Please wave or call out to the experimenters during this time if there is anything you need. <br /><br />Thank you! <br /><br />" x=0 y=0 z_index=0
+
+define logger logger
+	set description "Logs experimental data"
+	set auto_log yes
+	log target
+	log targ_type
+	log cresp
+	log condtrigtime
+
+define inline_script logscript
+	set description "Executes Python code"
+	___run__
+	log.write_vars(var.condtrigtime)
+	log.write_vars(var.wordtrigtime)
+	log.write_vars(var.canvastime)
+	__end__
+	set _prepare ""
+
+define coroutines new_coroutines
+	set function_name ""
+	set flush_keyboard yes
+	set end_after_item ""
+	set duration 1000
+	set description "Run items simultaneously"
+
+define inline_script new_inline_script
+	set description "Executes Python code"
+	set _run ""
+	set _prepare ""
+
+define inline_script new_inline_script_2
+	set description "Executes Python code"
+	___run__
+	trigger = [self.get("targ_type")]
+	
+	try:
+	    exp.port.write(trigger)
+	    print('targ type has been sent',str(trigger))
+	    self.sleep(10)
+	    exp.port.write([0x00])
+	    self.sleep(10)
+	
+	except:
+		print('targ type is not sent')
+	__end__
+	set _prepare ""
+
+define keyboard_response new_keyboard_response_1
+	set timeout 1000
+	set flush yes
+	set event_type keypress
+	set duration keypress
+	set description "Collects keyboard responses"
+	set correct_response "[cresp]"
+	set allowed_responses "z;/"
+
+define inline_script open_port
+	set description "Executes Python code"
+	set _run ""
+	___prepare__
+	# we will need to import the 'serial' module,
+	# which allows us to send and receive
+	# information via the serial port
+	try:
+	    import serial
+	    exp.port = serial.Serial('COM4',  baudrate=115200, bytesize=serial.EIGHTBITS, parity=serial.PARITY_NONE,  stopbits=serial.STOPBITS_ONE,timeout=1)
+	    exp.port.write([0x00])
+	    self.sleep(10)
+	    
+	    print('serial port read', exp.port.baudrate, exp.port.bytesize, exp.port.parity)
+	except: 
+		print('serial port not read')
+	 # next, we will need to start a connection to
+	# the serial port
+	
+	# finally, we want to make sure that the
+	# connection to the serial port will be stopped
+	# when the experiment is aborted or finished
+	exp.cleanup_functions.append(exp.port.close)
+	__end__
+
+define inline_script reset_counter_prep
+	set description "Executes Python code"
+	set _run ""
+	___prepare__
+	exp.set("counter", 0)
+	__end__
+
+define inline_script reset_counter_run
+	set description "Executes Python code"
+	___run__
+	exp.set('counter',0) 
+	__end__
+	set _prepare ""
+
+define inline_script response_trigger_trial
+	set description "Executes Python code"
+	___run__
+	print('response',self.get("response"),'cresp',self.get("cresp"))
+	try:
+	    if int(self.get("response")) == int(self.get("cresp")):
+	        trigger = [0xDC]
+	    else:
+	        trigger = [0xDD]
+	except:
+	    trigger = [0XDD]
+	
+	try:
+	        exp.port.write(trigger)
+	        self.sleep(10)
+	        print('response trigger has been sent', trigger)
+	        exp.port.write([0x00])
+	        self.sleep(10)
+	
+	except:
+		print('response trigger not sent')
+	__end__
+	set _prepare ""
+
+define sketchpad responsescreen
+	set duration 600
+	set description "Displays stimuli"
+
+define sequence sequence
+	set flush_keyboard yes
+	set description "Runs a number of items in sequence"
+	run inc_counter always
+	run fixation_1 always
+	run blank_screen always
+	run target_present always
+	run cond_trigger always
+	run word_trigger always
+	run new_keyboard_response_1 always
+	run response_trigger_trial always
+	run responsescreen always
+	run blink_screen "[counter]%3=0"
+	run ITI always
+	run break1 "[counter]=75"
+	run break2 "[counter]=150"
+	run break3_1 "[counter]=225"
+	run logger always
+
+define sketchpad target_present
+	set duration 0
+	set description "Displays stimuli"
+	draw textline center=1 color=white font_bold=no font_family=mono font_italic=no font_size=18 html=yes show_if=always text="[target]" x=0 y=0 z_index=0
+
+define inline_script word_trigger
+	set description "Executes Python code"
+	___run__
+	trigger = [self.get("word_trig")]
+	
+	try:
+	    exp.port.write(trigger)
+	    print('word trigger has been sent',str(trigger))
+	    self.sleep(10)
+	    exp.port.write([0x00])
+	    self.sleep(10)
+	
+	except:
+		print('word trigger not sent')
+	__end__
+	set _prepare ""
+
