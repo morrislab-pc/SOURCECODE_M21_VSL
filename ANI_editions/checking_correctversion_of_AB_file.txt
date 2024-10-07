@@ -1,0 +1,79 @@
+#Author: Joemari Pulido
+#Date: 3/15/2023
+#Description: This text file gives an in depth description of how I came to conclude which of the five versions
+appears to be the most updated version. 
+
+Check which version of m21 AB is the correct version:
+
+Possible Correct versions: 
+
+FIN__AB__M21_221108_ani_version-w10-PsyLab2.osexp
+
+FIN__AB__M21_221108_ani_version.osexp
+
+FIN__AB__M21_221108_ani_version_targ_type_removed.osexp
+
+FIN__AB__M21__112022.osexp
+
+Morph21.osexp #Dr. Morris said this version is not the right one 
+
+Now we're left with: 
+
+FIN__AB__M21_221108_ani_version-w10-PsyLab2.osexp
+
+FIN__AB__M21_221108_ani_version.osexp
+
+FIN__AB__M21_221108_ani_version_targ_type_removed.osexp
+
+FIN__AB__M21__112022.osexp
+
+To compare which version is the correct one I first checked whether each of them sends triggers correctly,
+I sat down and connected the actichamp to the amplifier and started recording while running each version of the 
+experiment. I watched each version and they all seem to send triggers correctly. This did not help much with 
+figuring out the differences, so the next step is to compare each source code and what differentiates them. 
+
+To compare each version, I used Github's version control capabilities and just copied and pasted one version over 
+the other. Then I tracked the changes to compare the differences in each source code. 
+
+When comparing FIN__AB__M21_221108_ani_version.osexp & FIN__AB__M21_221108_ani_version_targ_type_removed.osexp
+the only difference is that in FIN__AB__M21_221108_ani_version_targ_type_removed.osexp 'targ_type' is removed,
+it appears that FIN__AB__M21_221108_ani_version_targ_type_removed.osexp is an updated version of 
+FIN__AB__M21_221108_ani_version.osexp
+
+So now we can remove FIN__AB__M21_221108_ani_version.osexp from list of possibilities and now we're 
+down to 3 versions to choose: 
+
+FIN__AB__M21_221108_ani_version-w10-PsyLab2.osexp
+
+FIN__AB__M21_221108_ani_version_targ_type_removed.osexp
+
+FIN__AB__M21__112022.osexp
+
+I then compared FIN__AB__M21_221108_ani_version_targ_type_removed.osexp with FIN__AB__M21__112022.osexp
+the differences was that FIN__AB__M21_221108_ani_version_targ_type_removed.osexp set the path to "updated port" 
+and Ani also added more code to the end of FIN__AB__M21_221108_ani_version_targ_type_removed.osexp which 
+appears to send triggers for targets and words. Thus, it appears that FIN__AB__M21_221108_ani_version_targ_type_removed.osexp
+is an updated version of FIN__AB__M21__112022.osexp
+
+So no we can remove FIN__AB__M21__112022.osexp from the list of possible versions and now we're down to 2 yay!!
+the two left are: 
+FIN__AB__M21_221108_ani_version-w10-PsyLab2.osexp
+
+FIN__AB__M21_221108_ani_version_targ_type_removed.osexp
+
+I compared FIN__AB__M21_221108_ani_version-w10-PsyLab2.osexp with FIN__AB__M21_221108_ani_version_targ_type_removed.osexp
+A difference I found was in FIN__AB__M21_221108_ani_version-w10-PsyLab2.osexp the path included 'jmorris' so the 
+file changed in Dr. Morris' account rather than in Ani's. Also, in FIN__AB__M21_221108_ani_version-w10-PsyLab2.osexp
+'cond_trig' was changed to 'cond_trigger', so the programmer changed the variable name to be more descriptive. 
+Another change I noticed was that in FIN__AB__M21_221108_ani_version-w10-PsyLab2.osexp it removed 
+'define inline_script targ_type' an unused function that was left over in 
+FIN__AB__M21_221108_ani_version_targ_type_removed.osexp 
+
+Therefore, it appears that FIN__AB__M21_221108_ani_version-w10-PsyLab2.osexp is the version that has the correct port, 
+removed targ_type, has 'word_trigger' rather than word_trig as variable name making it more descriptive, and 
+also does not have 'define inline_script targ_type' an unused function, and appears to send triggers correctly 
+upon visual inspection. 
+
+So now we are just left with FIN__AB__M21_221108_ani_version-w10-PsyLab2.osexp 
+
+This appears to be the most updated version. 
