@@ -1,0 +1,11 @@
+Scenario - mult1A-testing_trigs.sce
+Logfile written - 07/07/2017 19:50:07
+
+Subject	Trial	Event Type	Code	block(str)	triplet(str)	p_code(num)	object(str)	Time	TTime	Uncertainty	Duration	Uncertainty	ReqTime	ReqDur	Stim Type	Pair Index
+
+0	1	Picture	inst1	inst1				10100	0	1	4303	1	0	next	other	0
+0	1	Response	4					14317	4217	1
+0	2	Picture	t6;7	t6;7				14403	0	1	8105	1	0	8000	other	0
+0	3	Picture	t10;7	t10;7				24509	0	1	8105	1	0	8000	other	0
+0	4	Picture	t8;7	t8;7				34616	0	1	9908	1	0	8000	other	0
+0	4	Quit						38957	4341	NA

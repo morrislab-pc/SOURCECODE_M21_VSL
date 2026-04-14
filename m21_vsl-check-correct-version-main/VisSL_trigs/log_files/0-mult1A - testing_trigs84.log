@@ -1,0 +1,54 @@
+Scenario - mult1A-testing_trigs.sce
+Logfile written - 07/10/2017 14:42:21
+
+Subject	Trial	Event Type	Code	block(str)	triplet(str)	p_code(num)	object(str)	Time	TTime	Uncertainty	Duration	Uncertainty	ReqTime	ReqDur	Stim Type	Pair Index
+
+0	1	Picture	inst1	inst1				10083	0	1	5500	1	0	next	other	0
+0	1	Response	4					15497	5414	1
+0	2	Picture	20;5	20;5				15583	0	1	8084	1	0	8000	other	0
+0	3	Picture	break	break				25668	0	1	2417	1	0	next	other	0
+0	3	Response	3					27977	2309	1
+0	4	Picture	inst3	inst3				28085	0	1	5917	1	0	next	other	0
+0	4	Response	4					33897	5812	1
+0	5	Picture	inst3	inst3				34002	0	1	2917	1	0	next	other	0
+0	5	Response	4					36856	2855	1
+0	6	Picture	23;2;2	23;2;2				36919	0	1	8084	1	0	8000	other	0
+0	7	Picture	15;2;2	15;2;2				47003	0	1	8084	1	0	8000	other	0
+0	8	Picture	4;2;2	4;2;2				57087	0	1	8084	1	0	8000	other	0
+0	9	Picture	pause	pause				67172	0	1	10084	1	0	next	other	0
+0	10	Picture	16;4;1	16;4;1				77256	0	1	8084	1	0	8000	other	0
+0	11	Picture	18;4;1	18;4;1				87340	0	1	8084	1	0	8000	other	0
+0	12	Picture	4;4;1	4;4;1				97424	0	1	8084	1	0	8000	other	0
+0	13	Picture	pause	pause				107509	0	1	10084	1	0	next	other	0
+0	14	Picture	question	question				117593	0	1	17835	1	0	next	other	0
+0	14	Response	1					135336	17743	1
+0	15	Picture	16;4;2	16;4;2				135428	0	1	8084	1	0	8000	other	0
+0	16	Picture	13;4;2	13;4;2				145512	0	1	8084	1	0	8000	other	0
+0	17	Picture	8;4;2	8;4;2				155596	0	1	8084	1	0	8000	other	0
+0	18	Picture	pause	pause				165681	0	1	10084	1	0	next	other	0
+0	19	Picture	14;1;1	14;1;1				175765	0	1	8084	1	0	8000	other	0
+0	20	Picture	13;1;1	13;1;1				185849	0	1	8084	1	0	8000	other	0
+0	21	Picture	2;1;1	2;1;1				195933	0	1	8084	1	0	8000	other	0
+0	22	Picture	pause	pause				206018	0	1	10084	1	0	next	other	0
+0	23	Picture	question	question				216102	0	1	18252	1	0	next	other	0
+0	23	Response	2					234295	18193	1
+0	24	Picture	22;8;1	22;8;1				234353	0	1	8084	1	0	8000	other	0
+0	25	Picture	12;8;1	12;8;1				244438	0	1	8084	1	0	8000	other	0
+0	26	Picture	7;8;1	7;8;1				254522	0	1	8084	1	0	8000	other	0
+0	27	Picture	pause	pause				264606	0	1	10084	1	0	next	other	0
+0	28	Picture	19;6;2	19;6;2				274691	0	1	8084	1	0	8000	other	0
+0	29	Picture	24;6;2	24;6;2				284775	0	1	8084	1	0	8000	other	0
+0	30	Picture	7;6;2	7;6;2				294859	0	1	8084	1	0	8000	other	0
+0	31	Picture	pause	pause				304943	0	1	10084	1	0	next	other	0
+0	32	Picture	question	question				315028	0	1	11918	2	0	next	other	0
+0	32	Response	1					326854	11827	1
+0	33	Picture	1;5;1	1;5;1				326945	0	1	8084	2	0	8000	other	0
+0	34	Picture	10;5;1	10;5;1				337030	0	1	8084	1	0	8000	other	0
+0	35	Picture	20;5;1	20;5;1				347114	0	1	8084	1	0	8000	other	0
+0	36	Picture	pause	pause				357198	0	1	10084	1	0	next	other	0
+0	37	Picture	1;5;2	1;5;2				367282	0	1	8084	1	0	8000	other	0
+0	38	Picture	11;5;2	11;5;2				377367	0	1	8084	1	0	8000	other	0
+0	39	Picture	5;5;2	5;5;2				387451	0	1	8084	1	0	8000	other	0
+0	40	Picture	pause	pause				397535	0	1	10084	1	0	next	other	0
+0	41	Picture	question	question				407619	0	1	21302	1	0	next	other	0
+0	41	Quit						423574	15954	NA

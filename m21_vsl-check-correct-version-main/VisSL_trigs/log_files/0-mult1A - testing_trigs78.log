@@ -1,0 +1,29 @@
+Scenario - mult1A-testing_trigs.sce
+Logfile written - 07/10/2017 14:22:27
+
+Subject	Trial	Event Type	Code	block(str)	triplet(str)	p_code(num)	object(str)	Time	TTime	Uncertainty	Duration	Uncertainty	ReqTime	ReqDur	Stim Type	Pair Index
+
+0	1	Picture	inst1	inst1				10083	0	1	6084	1	0	next	other	0
+0	1	Response	4					16125	6042	1
+0	2	Picture	16;1	16;1				16167	0	1	8084	1	0	8000	other	0
+0	3	Picture	break	break				26251	0	1	27836	1	0	next	other	0
+0	3	Response	4					37165	10913	1
+0	3	Response	3					53965	27713	1
+0	4	Picture	inst3	inst3				54087	0	1	7834	1	0	next	other	0
+0	4	Response	4					61804	7717	1
+0	5	Picture	inst3	inst3				61921	0	1	12835	1	0	next	other	0
+0	5	Response	4					74684	12763	1
+0	6	Picture	14;1;2	14;1;2				74756	0	1	8084	1	0	8000	other	0
+0	7	Picture	9;1;2	9;1;2				84840	0	1	8084	1	0	8000	other	0
+0	8	Picture	6;1;2	6;1;2				94924	0	1	8084	1	0	8000	other	0
+0	9	Picture	pause	pause				105008	0	1	10084	1	0	next	other	0
+0	10	Picture	22;4;1	22;4;1				115093	0	1	8084	1	0	8000	other	0
+0	11	Picture	21;4;1	21;4;1				125177	0	1	8084	1	0	8000	other	0
+0	12	Picture	2;4;1	2;4;1				135261	0	1	8084	1	0	8000	other	0
+0	13	Picture	pause	pause				145346	0	1	10084	1	0	next	other	0
+0	14	Picture	question	question				155430	0	1	17782	1	0	next	other	0
+0	14	Quit						168044	12614	NA
+
+The following output port codes were not sent because of a conflict on the port.
+Port	Code	Time(ms)
+1	101	1616.71

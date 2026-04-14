@@ -1,0 +1,12 @@
+Scenario - mult1A-testing_trigs.sce
+Logfile written - 07/18/2017 20:45:30
+
+Subject,Trial,Event Type,Code,block(str),triplet(str),p_code(num),object(str),Time,TTime,Uncertainty,Duration,Uncertainty,ReqTime,ReqDur,Stim Type,Pair Index
+
+0,1,Picture,inst1,inst1,,,,10083,0,1,7418,1,0,next,other,0
+0,1,Response,4,,,,,17430,7347,1
+0,2,Picture,10;7,10;7,,,,17500,0,1,8084,1,0,8000,other,0
+0,3,Picture,21;7,21;7,,,,27585,0,1,8084,1,0,8000,other,0
+0,4,Picture,17;7,17;7,,,,37669,0,1,8084,1,0,8000,other,0
+0,5,Picture,19;1,19;1,,,,47753,0,1,8096,1,0,8000,other,0
+0,5,Quit,,,,,,50870,3117,NA

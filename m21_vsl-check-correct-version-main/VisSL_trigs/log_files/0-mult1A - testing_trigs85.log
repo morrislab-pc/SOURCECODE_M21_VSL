@@ -1,0 +1,35 @@
+Scenario - mult1A-testing_trigs.sce
+Logfile written - 07/10/2017 14:43:20
+
+Subject	Trial	Event Type	Code	block(str)	triplet(str)	p_code(num)	object(str)	Time	TTime	Uncertainty	Duration	Uncertainty	ReqTime	ReqDur	Stim Type	Pair Index
+
+0	1	Picture	inst1	inst1				10083	0	1	3917	1	0	next	other	0
+0	1	Response	4					13949	3866	1
+0	2	Picture	5;4	5;4				14000	0	1	8084	1	0	8000	other	0
+0	3	Picture	break	break				24084	0	1	16752	1	0	next	other	0
+0	3	Response	4					32429	8345	1
+0	3	Response	3					40749	16665	1
+0	4	Picture	inst3	inst3				40836	0	1	8751	1	0	next	other	0
+0	4	Response	4					49469	8634	1
+0	5	Picture	inst3	inst3				49587	0	1	13085	1	0	next	other	0
+0	5	Response	4					62589	13002	1
+0	6	Picture	15;4;1	15;4;1				62671	0	1	8084	1	0	8000	other	0
+0	7	Picture	19;4;1	19;4;1				72756	0	1	8084	1	0	8000	other	0
+0	8	Picture	5;4;1	5;4;1				82840	0	1	8084	1	0	8000	other	0
+0	9	Picture	pause	pause				92924	0	1	10084	1	0	next	other	0
+0	10	Picture	13;1;2	13;1;2				103008	0	1	8084	1	0	8000	other	0
+0	11	Picture	2;1;2	2;1;2				113093	0	1	8084	1	0	8000	other	0
+0	12	Picture	16;1;2	16;1;2				123177	0	1	8084	1	0	8000	other	0
+0	13	Picture	pause	pause				133261	0	1	10084	1	0	next	other	0
+0	14	Picture	question	question				143345	0	1	19002	1	0	next	other	0
+0	14	Response	4					162268	18923	1
+0	15	Picture	3;5;1	3;5;1				162347	0	1	8084	1	0	8000	other	0
+0	16	Picture	23;5;1	23;5;1				172431	0	1	8084	1	0	8000	other	0
+0	17	Picture	22;5;1	22;5;1				182516	0	1	8084	1	0	8000	other	0
+0	18	Picture	pause	pause				192600	0	1	10084	1	0	next	other	0
+0	19	Picture	24;6;2	24;6;2				202684	0	1	8084	1	0	8000	other	0
+0	20	Picture	9;6;2	9;6;2				212768	0	1	8084	1	0	8000	other	0
+0	21	Picture	1;6;2	1;6;2				222853	0	1	8084	1	0	8000	other	0
+0	22	Picture	pause	pause				232937	0	1	10084	1	0	next	other	0
+0	23	Picture	question	question				243021	0	1	11102	1	0	next	other	0
+0	23	Response	1					252027	9006	1

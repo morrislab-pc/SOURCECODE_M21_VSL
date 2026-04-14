@@ -1,0 +1,38 @@
+Scenario - mult1A-testing_trigs.sce
+Logfile written - 07/10/2017 14:34:01
+
+Subject	Trial	Event Type	Code	block(str)	triplet(str)	p_code(num)	object(str)	Time	TTime	Uncertainty	Duration	Uncertainty	ReqTime	ReqDur	Stim Type	Pair Index
+
+0	1	Picture	inst1	inst1				10083	0	1	4500	1	0	next	other	0
+0	1	Response	4					14535	4452	1
+0	2	Picture	16;6	16;6				14584	0	1	8084	1	0	8000	other	0
+0	3	Picture	break	break				24668	0	1	23002	1	0	next	other	0
+0	3	Response	4					34055	9387	1
+0	3	Response	3					47575	22907	1
+0	4	Picture	inst3	inst3				47670	0	1	8584	1	0	next	other	0
+0	4	Response	4					56135	8465	1
+0	5	Picture	inst3	inst3				56254	0	1	21169	1	0	next	other	0
+0	5	Response	4					77334	21080	1
+0	6	Picture	2;5;1	2;5;1				77423	0	1	8084	1	0	8000	other	0
+0	7	Picture	10;5;1	10;5;1				87507	0	1	8084	1	0	8000	other	0
+0	8	Picture	3;5;1	3;5;1				97591	0	1	8084	1	0	8000	other	0
+0	9	Picture	pause	pause				107675	0	1	10084	1	0	next	other	0
+0	10	Picture	22;7;2	22;7;2				117760	0	1	8084	1	0	8000	other	0
+0	11	Picture	12;7;2	12;7;2				127844	0	1	8084	1	0	8000	other	0
+0	12	Picture	3;7;2	3;7;2				137928	0	1	8084	1	0	8000	other	0
+0	13	Picture	pause	pause				148012	0	1	10084	1	0	next	other	0
+0	14	Picture	question	question				158097	0	1	27086	1	0	next	other	0
+0	14	Response	1					185094	26997	1
+0	15	Picture	24;2;1	24;2;1				185183	0	1	8084	1	0	8000	other	0
+0	16	Picture	4;2;1	4;2;1				195267	0	1	8084	1	0	8000	other	0
+0	17	Picture	15;2;1	15;2;1				205351	0	1	8084	1	0	8000	other	0
+0	18	Picture	pause	pause				215435	0	1	10084	1	0	next	other	0
+0	19	Picture	7;4;2	7;4;2				225520	0	1	8084	1	0	8000	other	0
+0	20	Picture	17;4;2	17;4;2				235604	0	1	8084	1	0	8000	other	0
+0	21	Picture	15;4;2	15;4;2				245688	0	1	8084	1	0	8000	other	0
+0	22	Picture	pause	pause				255772	0	1	9768	1	0	next	other	0
+0	22	Quit						260453	4681	NA
+
+The following output port codes were not sent because of a conflict on the port.
+Port	Code	Time(ms)
+1	106	1458.39

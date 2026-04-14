@@ -1,0 +1,27 @@
+Scenario - mult1A-testing_trigs.sce
+Logfile written - 07/18/2017 20:56:58
+
+Subject,Trial,Event Type,Code,block(str),triplet(str),p_code(num),object(str),Time,TTime,Uncertainty,Duration,Uncertainty,ReqTime,ReqDur,Stim Type,Pair Index
+
+0,1,Picture,inst1,inst1,,,,10083,0,1,7001,1,0,next,other,0
+0,1,Response,4,,,,,17025,6941,1
+0,2,Picture,15;5,15;5,,,,17084,0,1,8084,1,0,8000,other,0
+0,3,Picture,8;5,8;5,,,,27168,0,1,8084,1,0,8000,other,0
+0,4,Picture,13;5,13;5,,,,37252,0,1,8084,1,0,8000,other,0
+0,5,Picture,22;2,22;2,,,,47337,0,1,8084,1,0,8000,other,0
+0,6,Picture,7;2,7;2,,,,57421,0,1,8084,1,0,8000,other,0
+0,7,Picture,17;2,17;2,,,,67505,0,1,8084,1,0,8000,other,0
+0,8,Picture,21;4,21;4,,,,77590,0,1,8084,1,0,8000,other,0
+0,9,Picture,18;4,18;4,,,,87674,0,1,8084,1,0,8000,other,0
+0,10,Picture,24;4,24;4,,,,97758,0,1,8084,1,0,8000,other,0
+0,11,Picture,12;6,12;6,,,,107842,0,1,8084,1,0,8000,other,0
+0,12,Picture,11;6,11;6,,,,117927,0,1,8084,1,0,8000,other,0
+0,13,Picture,20;6,20;6,,,,128011,0,1,8084,1,0,8000,false_alarm,15
+0,13,Response,4,,,,,130544,2533,1
+0,14,Picture,1;7,1;7,,,,138095,0,1,8084,1,0,8000,false_alarm,17
+0,14,Response,4,,,,,145824,7728,1
+0,15,Picture,6;7,6;7,,,,148180,0,1,8084,1,0,8000,other,0
+0,16,Picture,5;7,5;7,,,,158264,0,1,8084,1,0,8000,false_alarm,20
+0,16,Response,4,,,,,160304,2040,1
+0,17,Picture,23;3,23;3,,,,168348,0,1,5895,1,0,8000,other,0
+0,17,Quit,,,,,,169184,836,NA
