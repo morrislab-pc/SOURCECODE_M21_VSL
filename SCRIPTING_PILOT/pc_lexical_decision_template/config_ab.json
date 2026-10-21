@@ -1,0 +1,39 @@
+{
+  "study_name": "m21_lexical_decision",
+  "stimulus_file": "stimuli_ab.csv",
+  "display": {
+    "size_px": [
+      1920,
+      1080
+    ],
+    "fullscreen": false,
+    "screen": 0,
+    "font": "Courier New",
+    "text_height_px": 18,
+    "fixation_half_length_px": 21
+  },
+  "timing": {
+    "fixation_ms": 497,
+    "pretarget_blank_ms": 497,
+    "response_timeout_ms": 1200,
+    "postresponse_blank_ms": 600,
+    "blink_ms": 1500
+  },
+  "schedule": {
+    "blink_every": 3,
+    "break_every": 75
+  },
+  "responses": {
+    "word": "slash",
+    "nonword": "z"
+  },
+  "triggers": {
+    "mode": "mock",
+    "serial_port": "COM4",
+    "baudrate": 115200,
+    "pulse_ms": 10,
+    "reset_gap_ms": 10,
+    "correct": 220,
+    "incorrect_or_timeout": 221
+  }
+}
